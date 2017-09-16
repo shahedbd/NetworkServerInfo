@@ -1,0 +1,49 @@
+﻿
+
+Install-Package managedwifi -Version 1.1.0
+Then: Services--> WLANAutoconfi start
+
+
+
+TrafficWatcher
+https://www.codeproject.com/Articles/2470/TrafficWatcher
+
+Applications Traffic Watcher
+https://www.codeproject.com/Articles/14598/Applications-Traffic-Watcher
+
+
+Get Available Socket Port
+http://www.java2s.com/Code/CSharp/Network/GetAvailableSocketPort.htm
+
+Network:
+http://www.java2s.com/Code/CSharp/Network/CatalogNetwork.htm
+
+
+Network Utility
+https://www.codeproject.com/Articles/790150/Network-Utility
+
+
+.NET Network Monitor
+https://www.codeproject.com/Articles/225747/NET-Network-Monitor
+
+
+SQL Conn:
+https://github.com/ghuntley/csharp-mssql-connectivity-tester/blob/master/sql-connectivity-tester/Program.cs
+
+
+client server apps
+http://www.networkcomms.net/how-to-create-a-client-server-application-in-minutes/
+
+
+
+Socket programming:
+https://www.codeproject.com/Articles/10649/An-Introduction-to-Socket-Programming-in-NET-using
+
+
+
+C# Detecting Connected Devices through Lan
+https://forum.unity3d.com/threads/c-detecting-connected-devices-through-lan.297115/
+
+
+QR code:
+http://www.codescratcher.com/asp-net/generate-qr-code-image-in-asp-net-using-google-chart-api/

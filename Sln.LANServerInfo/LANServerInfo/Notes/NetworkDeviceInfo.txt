@@ -1,0 +1,19 @@
+﻿
+
+
+\\192.168.1.105
+\\192.168.1.111
+
+Router:
+http://192.168.1.1/
+admin/admin
+
+
+
+https://stackoverflow.com/questions/39719987/retrieving-disk-information-from-remote-server-c-sharp
+Make sure Allow remote connections to this computer is enabled.
+Make sure WMI is enabled in WindowsFirewall --> Allowed Apps.
+Make sure CIMV2 folder is accessble by admin in WMI Control properties.
+Make sure WMI and RPC services are running.
+User has admin rights on remote system
+
