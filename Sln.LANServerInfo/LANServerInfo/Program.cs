@@ -8,11 +8,14 @@ namespace LANServerInfo
         static void Main(string[] args)
         {
             string MyIPAddress = "192.168.1.111";
+            string MyIPAddressSJB = "192.168.1.101";
             string MyIPAddressLapTop = "192.168.1.106";
-            IPAddress ip = IPAddress.Parse(MyIPAddressLapTop);
+            IPAddress ip = IPAddress.Parse(MyIPAddress);
 
 
-            Helper.FreeSpaceNetwork(MyIPAddress);
+            //Helper.GetMACAddress();
+
+            Helper.FreeSpaceNetwork2(MyIPAddress);
             //Helper.FreeSpaceNetwork("DESKTOP-3KU7CQB");
 
             //Helper.GetDriverInfoLocal();

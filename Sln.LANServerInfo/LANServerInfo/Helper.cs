@@ -183,6 +183,28 @@ namespace LANServerInfo
             return machineName;
         }
 
+
+        public static string GetMACAddress()
+        {
+            NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
+            String sMacAddress = string.Empty;
+            foreach (NetworkInterface adapter in nics)
+            {
+                if (sMacAddress == String.Empty)// only return MAC Address from first card  
+                {
+                    IPInterfaceProperties properties = adapter.GetIPProperties();
+                    sMacAddress = adapter.GetPhysicalAddress().ToString();
+
+                    Console.WriteLine(sMacAddress);
+                }
+            }
+            return sMacAddress;
+        }
+
+
+
+
+
         //WLAN IP get
         public static string NetworkGateway()
         {
@@ -438,6 +460,57 @@ namespace LANServerInfo
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        public static void FreeSpaceNetwork2(string srvname)
+        {
+            try
+            {
+                ConnectionOptions conn = new ConnectionOptions();
+                string strNameSpace = @"\\";
+                if (srvname != "")
+                    strNameSpace += srvname;
+                else
+                    strNameSpace += ".";
+                strNameSpace += @"\root\cimv2";
+                System.Management.ManagementScope managementScope = new System.Management.ManagementScope(strNameSpace, conn);
+                System.Management.ObjectQuery query = new System.Management.ObjectQuery("SELECT Caption FROM Win32_OperatingSystem");
+                ManagementObjectSearcher moSearcher = new ManagementObjectSearcher(managementScope, query);
+                ManagementObjectCollection moCollection = moSearcher.Get();
+                foreach (ManagementObject oReturn in moCollection)
+                {
+                    //foreach (PropertyData prop in oReturn.Properties)
+                    //{
+                    //    Console.WriteLine(prop.Name + " " + prop.Value);
+                    //}
+
+                    Console.WriteLine("Drive {0}", oReturn["Name"].ToString());
+                    Console.WriteLine("Drive {0}", oReturn["Description"].ToString());
+                    Console.WriteLine("  File system: {0}", oReturn["FileSystem"].ToString());
+                    Console.WriteLine("  Available space to current user:{0, 15} bytes", oReturn["FreeSpace"].ToString());
+                    Console.WriteLine("  Total size of drive:            {0, 15} bytes ", oReturn["Size"].ToString());
+
+                    //Console.WriteLine("  Volume label: {0}", oReturn["VolumeName"].ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+
+
+        public static string GetOSFriendlyName()
+        {
+            string result = string.Empty;
+            ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT Caption FROM Win32_OperatingSystem");
+            foreach (ManagementObject os in searcher.Get())
+            {
+                result = os["Caption"].ToString();
+                break;
+            }
+            return result;
         }
 
     }

@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Helper.cs" />
     <Compile Include="IPUtility.cs" />
+    <Compile Include="Notes\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
