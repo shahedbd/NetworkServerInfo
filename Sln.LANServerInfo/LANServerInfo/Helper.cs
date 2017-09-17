@@ -10,9 +10,7 @@ using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-
-
-
+using System.Web;
 
 namespace LANServerInfo
 {
@@ -500,7 +498,6 @@ namespace LANServerInfo
         }
 
 
-
         public static string GetOSFriendlyName()
         {
             string result = string.Empty;
@@ -512,6 +509,57 @@ namespace LANServerInfo
             }
             return result;
         }
+
+
+        public static void GetINFO()
+        {
+            string[] computer_name = Dns.GetHostEntry(HttpContext.Current.Request.ServerVariables["DESKTOP-3KU7CQB"]).HostName.Split(new char[] { '.' });
+            string ecn = Environment.MachineName;
+        }
+
+
+        public static string DetermineCompName(string IP)
+        {
+            IPAddress myIP = IPAddress.Parse(IP);
+            IPHostEntry GetIPHost = Dns.GetHostEntry(myIP);
+            List<string> compName = GetIPHost.HostName.ToString().Split('.').ToList();
+            return compName.First();
+        }
+
+        public static string GetMACAddress2()
+        {
+            ManagementClass mc = new ManagementClass("Win32_NetworkAdapterConfiguration");
+            ManagementObjectCollection moc = mc.GetInstances();
+            string MACAddress = string.Empty;
+            foreach (ManagementObject mo in moc)
+            {
+                if (MACAddress == string.Empty)  // only return MAC Address from first card
+                {
+                    if ((bool)mo["IPEnabled"] == true) MACAddress = mo["MacAddress"].ToString();
+                }
+                mo.Dispose();
+            }
+
+            MACAddress = MACAddress.Replace(":", "");
+            return MACAddress;
+        }
+
+
+        public static void GetMACAddressByIP(string MachineName)
+        {
+            ManagementScope theScope = new ManagementScope("\\\\" + MachineName + "\\root\\cimv2");
+            StringBuilder theQueryBuilder = new StringBuilder();
+            theQueryBuilder.Append("SELECT MACAddress FROM Win32_NetworkAdapter");
+            ObjectQuery theQuery = new ObjectQuery(theQueryBuilder.ToString());
+            ManagementObjectSearcher theSearcher = new ManagementObjectSearcher(theScope, theQuery);
+            ManagementObjectCollection theCollectionOfResults = theSearcher.Get();
+
+            foreach (ManagementObject theCurrentObject in theCollectionOfResults)
+            {
+                string macAdd = "MAC Address: " + theCurrentObject["MACAddress"].ToString();
+            }
+        }
+
 
     }
 }

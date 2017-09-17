@@ -13,9 +13,12 @@ namespace LANServerInfo
             IPAddress ip = IPAddress.Parse(MyIPAddress);
 
 
+
+            Helper.GetMACAddressByIP(MyIPAddress);
+
             //Helper.GetMACAddress();
 
-            Helper.FreeSpaceNetwork2(MyIPAddress);
+            //Helper.FreeSpaceNetwork2(MyIPAddress);
             //Helper.FreeSpaceNetwork("DESKTOP-3KU7CQB");
 
             //Helper.GetDriverInfoLocal();
