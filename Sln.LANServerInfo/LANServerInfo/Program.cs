@@ -5,21 +5,45 @@ namespace LANServerInfo
 {
     class Program
     {
+        static string MyIPAddress = "192.168.1.111";
+        static string MyMACAddress = "00155D72E9D2";
+
+        static string MyIPAddressLapTop = "192.168.1.106";
+
+        static string IPGoogle = "google.com";
+        static string IPGoogle2 = "216.58.203.238";
+
+        static string IPAspnet = "bing.com";
+        static string IPAspnet2 = "204.79.197.200";
+
+        static string MyIPAddressSJB = "192.168.1.101";
+
         static void Main(string[] args)
         {
-            string MyIPAddress = "192.168.1.111";
-            string MyIPAddressSJB = "192.168.1.101";
-            string MyIPAddressLapTop = "192.168.1.106";
             IPAddress ip = IPAddress.Parse(MyIPAddress);
 
 
+            var abc = PortDetails.GetNetStatPorts();
 
-            Helper.GetMACAddressByIP(MyIPAddress);
+            //TestCode.ServiceRunning();
+
+            //StorageDetails.GetDriveInfoBytes(IPAspnet2);
+
+            //ServerDetails.GetServerInfoByIPAddress(MyIPAddressLapTop);
+
+            //var abc = TestCode.GetMacAddress3(MyIPAddress);
+
+
+            //Helper.GetServerPingStatus(MyIPAddress);
+
+            //Helper.GetServerInfoByIPAddress(MyIPAddressLapTop);
+
+            //Helper.GetMACAddressByIP(MyIPAddress);
 
             //Helper.GetMACAddress();
 
             //Helper.FreeSpaceNetwork2(MyIPAddress);
-            //Helper.FreeSpaceNetwork("DESKTOP-3KU7CQB");
+            //Helper.FreeSpaceNetwork(MyIPAddress);
 
             //Helper.GetDriverInfoLocal();
 

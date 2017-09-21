@@ -1,0 +1,31 @@
+﻿
+
+Console.WriteLine("AddressList******************");
+                var AddressList = hostEntry.AddressList;
+
+
+
+                foreach (var item in AddressList)
+                {
+                    //Console.WriteLine("AddressList: " + item.Address);
+                    Console.WriteLine("AddressList: " + item.AddressFamily);
+                    Console.WriteLine("AddressList: " + item.IsIPv4MappedToIPv6);
+                    Console.WriteLine("AddressList: " + item.IsIPv6LinkLocal);
+                    Console.WriteLine("AddressList: " + item.IsIPv6Multicast);
+                    Console.WriteLine("AddressList: " + item.IsIPv6SiteLocal);
+                    Console.WriteLine("AddressList: " + item.IsIPv6Teredo);
+                    Console.WriteLine("AddressList: " + item.ScopeId);
+
+                }
+
+
+ public static void CHKServer(string strMachineName)
+        {
+            var ping = new Ping();
+
+            //var Googlereply = ping.Send(GoogleIPAddress, 60 * 1000);
+
+            var reply = ping.Send(strMachineName, 60 * 1000);   // 1 minute time out (in ms)
+            // or...
+            reply = ping.Send(new IPAddress(new byte[] { 192, 168, 1, 105 }), 3000);
+        }

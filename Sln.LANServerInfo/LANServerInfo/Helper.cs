@@ -89,20 +89,10 @@ namespace LANServerInfo
 
 
         //Need it
-        public static void CHKServer()
+        public static void GetServerPingStatus(string strMachineName)
         {
-            string MyIPAddress = "192.168.1.111";
-            string MyIPAddressLapTop = "192.168.1.105";
-            string GoogleIPAddress = "172.217.24.110";
-
-
             var ping = new Ping();
-
-            //var Googlereply = ping.Send(GoogleIPAddress, 60 * 1000);
-
-            var reply = ping.Send(MyIPAddressLapTop, 60 * 1000); // 1 minute time out (in ms)
-            // or...
-            reply = ping.Send(new IPAddress(new byte[] { 192, 168, 1, 105 }), 3000);
+            var reply = ping.Send(strMachineName, 60 * 1000);
         }
 
         public static string LocalIPAddress()
@@ -165,14 +155,15 @@ namespace LANServerInfo
 
 
         //Need  it
-        public static string GetServerInfoByIPAddress(string ipAdress)
+        public static string GetServerInfoByIPAddress(string strMachineName)
         {
             string machineName = string.Empty;
             try
             {
-                IPHostEntry hostEntry = Dns.GetHostEntry(ipAdress);
+                IPHostEntry hostEntry = Dns.GetHostEntry(strMachineName);
 
                 machineName = hostEntry.HostName;
+                Console.WriteLine("Machine Name: " + hostEntry.HostName);
             }
             catch (Exception ex)
             {
@@ -440,16 +431,16 @@ namespace LANServerInfo
                 ManagementObjectCollection moCollection = moSearcher.Get();
                 foreach (ManagementObject oReturn in moCollection)
                 {
-                    //foreach (PropertyData prop in oReturn.Properties)
-                    //{
-                    //    Console.WriteLine(prop.Name + " " + prop.Value);
-                    //}
+                    foreach (PropertyData prop in oReturn.Properties)
+                    {
+                        Console.WriteLine(prop.Name + " " + prop.Value);
+                    }
 
-                    Console.WriteLine("Drive {0}", oReturn["Name"].ToString());
-                    Console.WriteLine("Drive {0}", oReturn["Description"].ToString());
-                    Console.WriteLine("  File system: {0}", oReturn["FileSystem"].ToString());
-                    Console.WriteLine("  Available space to current user:{0, 15} bytes", oReturn["FreeSpace"].ToString());
-                    Console.WriteLine("  Total size of drive:            {0, 15} bytes ", oReturn["Size"].ToString());
+                    //Console.WriteLine("Drive {0}", oReturn["Name"].ToString());
+                    //Console.WriteLine("Drive {0}", oReturn["Description"].ToString());
+                    //Console.WriteLine("  File system: {0}", oReturn["FileSystem"].ToString());
+                    //Console.WriteLine("  Available space to current user:{0, 15} bytes", oReturn["FreeSpace"].ToString());
+                    //Console.WriteLine("  Total size of drive:            {0, 15} bytes ", oReturn["Size"].ToString());
 
                     //Console.WriteLine("  Volume label: {0}", oReturn["VolumeName"].ToString());
                 }

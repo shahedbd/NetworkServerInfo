@@ -1,21 +1,13 @@
 ﻿/*
-
-using CAD.FEA.WebApp.Controllers.Tasks;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web.Mvc;
-using System.Web.SessionState;
 //using System.Configuration;
 //using System.Diagnostics;
-using System.Configuration;
-using CADFEA.AzureStorage;
-using Microsoft.WindowsAzure;
 //using QuantumConcepts.Formats.StereoLithography;
 using System.Diagnostics;
-using CADFEA.WebApi.Controllers;
-using CAD.FEA.Share.Meshing.Tetgen;
+using System.IO;
+using System.Linq;
+using System.Web.SessionState;
 
 namespace CAD.FEA.WebApp.Controllers
 {

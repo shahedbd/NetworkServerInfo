@@ -47,3 +47,31 @@ https://forum.unity3d.com/threads/c-detecting-connected-devices-through-lan.2971
 
 QR code:
 http://www.codescratcher.com/asp-net/generate-qr-code-image-in-asp-net-using-google-chart-api/
+
+
+
+
+Enable Anonymous Authentication (IIS 7)
+https://technet.microsoft.com/en-us/library/cc731244(v=ws.10).aspx
+
+
+Run WMI
+WMImgmt.msc
+
+
+Configure DCOM
+http://www.lakshmikanth.com/wmi-access-denied-on-remote-computer/
+
+Configure WMI and DCOM
+https://rakhesh.com/windows/wmi-access-denied-for-remote-machine-etc/
+
+
+
+
+
+
+https://www.codeproject.com/Articles/14423/Getting-the-active-TCP-UDP-connections-using-the-G
+
+
+Process port:
+https://stackoverflow.com/questions/1675077/how-do-i-get-process-name-of-an-open-port-in-c
