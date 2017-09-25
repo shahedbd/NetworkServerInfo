@@ -17,3 +17,17 @@ Make sure CIMV2 folder is accessble by admin in WMI Control properties.
 Make sure WMI and RPC services are running.
 User has admin rights on remote system
 
+
+
+
+*************************************
+Use the following commands at a command prompt. Type the following to enable WMI traffic through the firewall.
+
+netsh advfirewall firewall set rule group="windows management instrumentation (wmi)" new enable=yes
+
+Type the following command to disable WMI traffic through the firewall.
+
+netsh advfirewall firewall set rule group="windows management instrumentation (wmi)" new enable=no
+
+
+

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Management;
 using System.Net.NetworkInformation;
 using System.ServiceProcess;
@@ -186,6 +187,213 @@ namespace LANServerInfo
             foreach (ServiceController service in services)
             {
                 Console.WriteLine("The {0} service is currently:   {1}  Port: {2}", service.DisplayName, service.Status, service.MachineName);
+            }
+        }
+
+
+
+        public static void RemoteDiskSpace()
+        {
+            ConnectionOptions opt = new ConnectionOptions();
+            ObjectQuery oQuery = new ObjectQuery("SELECT Size, FreeSpace, Name, FileSystem FROM Win32_LogicalDisk WHERE DriveType = 3");
+
+            StreamReader oReader = new StreamReader("computers.txt");
+            StreamWriter writer = new StreamWriter("diskSpace.html");
+            writer.WriteLine("<html><body><table border=\"0\" cellpadding=\"5\">");
+            writer.WriteLine(@"<tr>                                 
+                                       <th>Machine</th>
+                                       <th>Drive</th>
+                                      <th>Size GB</th>
+                                       <th>Free Space GB</th>
+                                        <th>Free Space %</th>
+                                      <th>FileSystem</th>
+                                  </tr>");
+            string sLine = string.Empty;
+
+            while (sLine != null)
+            {
+                sLine = oReader.ReadLine();
+
+                if (sLine != null)
+                {
+                    ManagementScope scope = new ManagementScope("\\\\" + sLine + "\\root\\cimv2", opt);
+
+                    ManagementObjectSearcher moSearcher = new ManagementObjectSearcher(scope, oQuery);
+                    ManagementObjectCollection collection = moSearcher.Get();
+                    writer.WriteLine("<tr><td valign=\"top\">" + sLine + "</td></tr>");
+                    Console.Write("Trying " + sLine + "...");
+                    foreach (ManagementObject res in collection)
+                    {
+                        decimal size = Convert.ToDecimal(res["Size"]) / 1024 / 1024 / 1024;
+                        decimal freeSpace = Convert.ToDecimal(res["FreeSpace"]) / 1024 / 1024 / 1024;
+                        writer.WriteLine("<tr><td></td>");
+                        writer.WriteLine("<td>" + res["Name"] + "</td>");
+                        writer.WriteLine("<td>" + decimal.Round(size, 2) + " GB </td>");
+                        writer.WriteLine("<td>" + decimal.Round(freeSpace, 2) + " GB </td>");
+                        writer.WriteLine("<td>" + decimal.Round(freeSpace / size, 2) * 100 + "% </td>");
+                        writer.WriteLine("<td>" + res["FileSystem"] + "</td>");
+                        writer.WriteLine("</tr>");
+                    }
+                    Console.WriteLine("done!");
+                }
+
+            }
+            Console.WriteLine("Please open diskSpace.html for result");
+            writer.WriteLine("</table></body></html>");
+            writer.Close();
+            oReader.Close();
+
+        }
+
+
+        public static void DiskUsageForNetworkComputer(string PCName)
+        {
+            try
+            {
+                ConnectionOptions connection = new ConnectionOptions();
+
+                ManagementScope scope = new ManagementScope("\\\\" + PCName + "\\root\\CIMV2", connection);
+                scope.Connect();
+
+                var query = new ObjectQuery("SELECT * FROM Win32_DiskDrive");
+
+                var searcher = new ManagementObjectSearcher(scope, query);
+
+                foreach (ManagementObject queryObj in searcher.Get())
+                {
+
+
+                    var dIndex = Convert.ToString(queryObj["Index"]);
+
+                    long size = (Convert.ToInt64(queryObj["Size"]) / 1000000000);
+                    //int Full = size / free;
+                    //dFree = Convert.ToString(queryObj["Index"]);
+                    var dSize = Convert.ToString(size);
+                    var dCaption = Convert.ToString(queryObj["Caption"]);
+                    var dDescript = Convert.ToString(queryObj["Description"]);
+                    var dStatus = Convert.ToString(queryObj["Status"]);
+
+                    //dgvBIOS.Rows.Add(dDescript, dIndex);
+                    //dgvBIOS.Rows.Add(".... Drive Model", dCaption);
+                    //dgvBIOS.Rows.Add(".... Drive Size", dSize + " GB");
+
+                    string dLett = null;
+                    if (dIndex == "0")
+                    {
+                        dLett = "C";
+                    }
+                    else if (dIndex == "1")
+                    {
+                        dLett = "E";
+                    }
+                    else if (dIndex == "2")
+                    {
+                        dLett = "F";
+                    }
+                    else if (dIndex == "3")
+                    {
+                        dLett = "G";
+                    }
+
+                    ObjectQuery q2 = new ObjectQuery(@"SELECT * FROM Win32_LogicalDisk WHERE Caption='" + dLett + ":'");
+                    ManagementObjectSearcher s2 = new ManagementObjectSearcher(scope, q2);
+                    foreach (ManagementObject qO2 in s2.Get())
+                    {
+                        long free = Convert.ToInt64(qO2["FreeSpace"]) / 1000000000;
+
+                        //dgvBIOS.Rows.Add(".... Free Space", Convert.ToString(free) + " GB");
+                    }
+
+                    //dgvBIOS.Rows.Add(".... Drive Status", dStatus);
+
+                }
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+            }
+        }
+
+
+        public static void WMITest(string PCName)
+        {
+            ConnectionOptions co = new ConnectionOptions();
+            co.Impersonation = ImpersonationLevel.Impersonate;
+            co.Authentication = AuthenticationLevel.Packet;
+            co.Timeout = new TimeSpan(0, 0, 30);
+            co.EnablePrivileges = true;
+            co.Username = "\\";
+            co.Password = "";
+
+            //ManagementScope scope = new ManagementScope("\\\\" + PCName + "\\root\\CIMV2", connection);
+
+            ManagementPath mp = new ManagementPath();
+            mp.NamespacePath = @"\root\cimv2";
+            mp.Server = PCName;
+
+            ManagementScope ms = new ManagementScope(mp, co);
+            ms.Connect();
+
+            ManagementObjectSearcher srcd;
+            srcd = new ManagementObjectSearcher
+            (
+                ms, new ObjectQuery("select * from Win32_DisplayConfiguration")
+            );
+        }
+
+
+        public static void WMITest2(string PCName)
+        {
+            ConnectionOptions remoteConnectionOptions = new ConnectionOptions();
+            remoteConnectionOptions.Impersonation = ImpersonationLevel.Impersonate;
+            remoteConnectionOptions.EnablePrivileges = true;
+            remoteConnectionOptions.Authentication = AuthenticationLevel.Packet;
+            remoteConnectionOptions.Username = "Devzone";
+            remoteConnectionOptions.Password = "dev321";
+
+            //ManagementScope managementScope = new ManagementScope(@"\\" + PCName + @"\root\CIMV2", remoteConnectionOptions);
+
+            ManagementScope myscope = new ManagementScope(@"\\" + PCName + "\\Username", remoteConnectionOptions);
+            myscope.Connect();
+
+            //ConnectionOptions options = new ConnectionOptions();
+            //options.Authentication = AuthenticationLevel.PacketPrivacy;
+            //ManagementScope managementScope = new ManagementScope(@"\\" + PCName + @"\root\WebAdministration", options);
+            //managementScope.Connect();
+
+
+            //ConnectionOptions oConn = new ConnectionOptions();
+            //ManagementScope oScope = null;
+
+            //oConn.Username = "Devzone";
+            //oConn.Password = "dev321";
+            //oConn.Authority = "ntlmdomain:" + "devstation";
+
+            //oScope = new ManagementScope("\\\\" + PCName + "\\root\\CIMV2", oConn);
+
+            //oScope.Connect();
+
+        }
+
+
+        public static void remoteConnection(string servername, string username, string password)
+        {
+            try
+            {
+                ConnectionOptions rcOptions = new ConnectionOptions();
+                rcOptions.Authentication = AuthenticationLevel.Packet;
+                rcOptions.Impersonation = ImpersonationLevel.Impersonate;
+                rcOptions.EnablePrivileges = true;
+                rcOptions.Username = servername + @"\" + username;
+                rcOptions.Password = password;
+
+                ManagementScope mScope = new ManagementScope(string.Format(@"\\{0}\root\cimv2", servername), rcOptions);
+                mScope.Connect();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
 

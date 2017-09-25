@@ -75,3 +75,19 @@ https://www.codeproject.com/Articles/14423/Getting-the-active-TCP-UDP-connection
 
 Process port:
 https://stackoverflow.com/questions/1675077/how-do-i-get-process-name-of-an-open-port-in-c
+
+
+
+Networks disk info
+http://www.it-notebook.org/uncategorized/article/csharp_remote_disk_info.htm
+
+
+
+By powershell
+Get-WmiObject `
+    -Credential (Get-Credential) `
+    -ComputerName 192.168.1.108 `
+    -Namespace root\MicrosoftIISV2 `
+    -Query "select * from IISApplicationPoolSetting where Name='W3SVC/APPPOLLS/MyPool'"
+
+

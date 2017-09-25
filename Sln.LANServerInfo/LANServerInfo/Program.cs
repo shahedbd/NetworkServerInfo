@@ -8,7 +8,7 @@ namespace LANServerInfo
         static string MyIPAddress = "192.168.1.111";
         static string MyMACAddress = "00155D72E9D2";
 
-        static string MyIPAddressLapTop = "192.168.1.106";
+        static string MyIPAddressLapTop = "192.168.1.108";
 
         static string IPGoogle = "google.com";
         static string IPGoogle2 = "216.58.203.238";
@@ -18,16 +18,21 @@ namespace LANServerInfo
 
         static string MyIPAddressSJB = "192.168.1.101";
 
+        static string UserName = "Prodev";
+        static string PassWord = "dev123456";
+
         static void Main(string[] args)
         {
             IPAddress ip = IPAddress.Parse(MyIPAddress);
 
 
-            var abc = PortDetails.GetNetStatPorts();
+            //var abc = PortDetails.GetNetStatPorts();
 
             //TestCode.ServiceRunning();
 
-            //StorageDetails.GetDriveInfoBytes(IPAspnet2);
+            //TestCode.DiskUsageForNetworkComputer(MyIPAddressLapTop);
+
+            TestCode.remoteConnection(MyIPAddressLapTop, UserName, PassWord);
 
             //ServerDetails.GetServerInfoByIPAddress(MyIPAddressLapTop);
 
