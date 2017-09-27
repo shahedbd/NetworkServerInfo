@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Microsoft.Management.Infrastructure;
+using Microsoft.Management.Infrastructure.Options;
+using System;
 using System.IO;
 using System.Management;
 using System.Net.NetworkInformation;
+using System.Security;
 using System.ServiceProcess;
 using System.Text;
 
@@ -82,6 +85,7 @@ namespace LANServerInfo
         }
 
 
+        //Need it
         public static void SystemManufacturer()
         {
             SelectQuery query = new SelectQuery(@"Select * from Win32_ComputerSystem");
@@ -380,6 +384,11 @@ namespace LANServerInfo
         {
             try
             {
+                ConnectionOptions options = new ConnectionOptions();
+                options.Authentication = AuthenticationLevel.PacketPrivacy;
+                //ManagementScope managementScope = new ManagementScope(@"\\devstation\root\WebAdministration", options);
+                //managementScope.Connect();
+
                 ConnectionOptions rcOptions = new ConnectionOptions();
                 rcOptions.Authentication = AuthenticationLevel.Packet;
                 rcOptions.Impersonation = ImpersonationLevel.Impersonate;
@@ -396,6 +405,122 @@ namespace LANServerInfo
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public static void ConnectingToWMI(string Computer_B)
+        {
+            //string Namespace = @"root\cimv2";
+            //string OSQuery = "SELECT * FROM Win32_OperatingSystem";
+            //CimSession mySession = CimSession.Create(Computer_B);
+            //IEnumerable<CimInstance> queryInstance = mySession.QueryInstances(Namespace, "WQL", OSQuery);
+
+
+            //foreach (CimInstance cimInstance in queryInstance)
+            //{
+            //    Console.WriteLine("Process name: {0}", cimInstance.CimInstanceProperties["Name"].Value);
+            //}
+
+
+            //*************************************
+            //string domain = "DESKTOP-3KU7CQB";
+            //string username = "shahed";
+            //string password = "dev321";
+
+            string domain = "devstation";
+            string username = "Prodev";
+            string password = "dev123456";
+
+
+            //PerformanceCounter freeSpaceCounter = null;
+            //using (((WindowsIdentity)HttpContext.Current.User.Identity).Impersonate())
+            //{
+            //    freeSpaceCounter = new PerformanceCounter("LogicalDisk",
+            //                               "Free Megabytes", "D:", "RemoteMachine12");
+            //}
+
+            ConnectionOptions con = new ConnectionOptions();
+            con.Username = "Administrator";
+            con.Password = "admin";
+
+            ManagementScope scope = new ManagementScope(@"\\" + Computer_B + @"\root\cimv2", con);
+            scope.Connect();
+
+
+
+
+            SecureString securepassword = new SecureString();
+            foreach (char c in password)
+            {
+                securepassword.AppendChar(c);
+            }
+
+            // create Credentials
+            CimCredential Credentials = new CimCredential(PasswordAuthenticationMechanism.Default,
+                                                          Computer_B,
+                                                          username,
+                                                          securepassword);
+
+            // create SessionOptions using Credentials
+            WSManSessionOptions SessionOptions = new WSManSessionOptions();
+            SessionOptions.AddDestinationCredentials(Credentials);
+            // create Session using computer, SessionOptions
+            CimSession Session = CimSession.Create(Computer_B, SessionOptions);
+
+
+            var allVolumes = Session.QueryInstances(@"root\cimv2", "WQL", "SELECT * FROM Win32_Volume");
+            var allPDisks = Session.QueryInstances(@"root\cimv2", "WQL", "SELECT * FROM Win32_DiskDrive");
+
+            // Loop through all volumes
+            foreach (CimInstance oneVolume in allVolumes)
+            {
+                // Show volume information
+
+                if (oneVolume.CimInstanceProperties["DriveLetter"].ToString()[0] > ' ')
+                {
+                    Console.WriteLine("Volume ‘{0}’ has {1} bytes total, {2} bytes available",
+                                      oneVolume.CimInstanceProperties["DriveLetter"],
+                                      oneVolume.CimInstanceProperties["Size"],
+                                      oneVolume.CimInstanceProperties["SizeRemaining"]);
+                }
+
+            }
+
+            // Loop through all physical disks
+            foreach (CimInstance onePDisk in allPDisks)
+            {
+                // Show physical disk information
+                Console.WriteLine("Disk {0} is model {1}, serial number {2}",
+                                  onePDisk.CimInstanceProperties["DeviceId"],
+                                  onePDisk.CimInstanceProperties["Model"].ToString().TrimEnd(),
+                                  onePDisk.CimInstanceProperties["SerialNumber"]);
+            }
+
+
+
+
+        }
+
+
+        public static void RemotePCConnTest(string REMOTE_COMPUTER_NAME)
+        {
+            var processToRun = new[] { "notepad.exe" };
+            var connection = new ConnectionOptions();
+            connection.Username = "Administrator";
+            connection.Password = "admin";
+            var wmiScope = new ManagementScope(string.Format("\\\\{0}\\root\\cimv2", REMOTE_COMPUTER_NAME), connection);
+            var wmiProcess = new ManagementClass(wmiScope, new ManagementPath("Win32_Process"), new ObjectGetOptions());
+            wmiProcess.InvokeMethod("Create", processToRun);
+
+            wmiScope.Connect();
+        }
+
+
+
+        public static void GetDomainName()
+        {
+            var abc = IPGlobalProperties.GetIPGlobalProperties().DomainName;
+            var ab2 = Environment.UserDomainName;
+        }
+
 
     }
 }

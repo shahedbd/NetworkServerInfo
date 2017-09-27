@@ -4,6 +4,11 @@ Install-Package managedwifi -Version 1.1.0
 Then: Services--> WLANAutoconfi start
 
 
+Install-Package Microsoft.Management.Infrastructure -Version 4.0.0
+
+
+
+
 
 TrafficWatcher
 https://www.codeproject.com/Articles/2470/TrafficWatcher
@@ -90,4 +95,9 @@ Get-WmiObject `
     -Namespace root\MicrosoftIISV2 `
     -Query "select * from IISApplicationPoolSetting where Name='W3SVC/APPPOLLS/MyPool'"
 
+
+
+
+Microsoft.Management.Infrastructure Example
+https://msdn.microsoft.com/en-us/library/mt703458(v=vs.85).aspx
 

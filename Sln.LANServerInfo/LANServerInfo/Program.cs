@@ -5,6 +5,7 @@ namespace LANServerInfo
 {
     class Program
     {
+        //DESKTOP-3KU7CQB
         static string MyIPAddress = "192.168.1.111";
         static string MyMACAddress = "00155D72E9D2";
 
@@ -25,6 +26,12 @@ namespace LANServerInfo
         {
             IPAddress ip = IPAddress.Parse(MyIPAddress);
 
+            //ServerDetails.GetServerInfoByIPAddress("devstation");
+
+            //StorageDetails.GetDriveInfoBytes2(MyIPAddressLapTop);
+            StorageDetails.RAMTotSize(MyIPAddressLapTop);
+
+            //TestCode.ConnectingToWMI(MyIPAddressLapTop);
 
             //var abc = PortDetails.GetNetStatPorts();
 
@@ -32,7 +39,7 @@ namespace LANServerInfo
 
             //TestCode.DiskUsageForNetworkComputer(MyIPAddressLapTop);
 
-            TestCode.remoteConnection(MyIPAddressLapTop, UserName, PassWord);
+            //TestCode.remoteConnection(MyIPAddressLapTop, UserName, PassWord);
 
             //ServerDetails.GetServerInfoByIPAddress(MyIPAddressLapTop);
 
