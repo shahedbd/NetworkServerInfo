@@ -89,10 +89,11 @@ namespace LANServerInfo
 
 
         //Need it
-        public static void GetServerPingStatus(string strMachineName)
+        public static IPStatus GetServerPingStatus(string strMachineName)
         {
             var ping = new Ping();
             var reply = ping.Send(strMachineName, 60 * 1000);
+            return reply.Status;
         }
 
         public static string LocalIPAddress()
@@ -551,6 +552,20 @@ namespace LANServerInfo
             }
         }
 
+
+
+        public static IEnumerable<Process> GetChildProcesses(this Process process)
+        {
+            List<Process> children = new List<Process>();
+            ManagementObjectSearcher mos = new ManagementObjectSearcher(String.Format("Select * From Win32_Process Where ParentProcessID={0}", process.Id));
+
+            foreach (ManagementObject mo in mos.Get())
+            {
+                children.Add(Process.GetProcessById(Convert.ToInt32(mo["ProcessID"])));
+            }
+
+            return children;
+        }
 
     }
 }

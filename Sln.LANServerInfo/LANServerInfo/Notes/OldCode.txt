@@ -29,3 +29,27 @@ Console.WriteLine("AddressList******************");
             // or...
             reply = ping.Send(new IPAddress(new byte[] { 192, 168, 1, 105 }), 3000);
         }
+
+
+
+Network:
+Ref:
+http://weblogs.sqlteam.com/mladenp/archive/2010/11/04/find-only-physical-network-adapters-with-wmi-win32_networkadapter-class.aspx
+
+ManagementObjectSearcher mos = null;
+            mos = new ManagementObjectSearcher(@"SELECT * FROM   Win32_NetworkAdapter WHERE  Manufacturer != 'Microsoft' AND NOT PNPDeviceID LIKE 'ROOT\\%'");
+            // Get the physical adapters and sort them by their index. 
+            // This is needed because they're not sorted by default
+            IList<ManagementObject> managementObjectList = mos.Get()
+                                                              .Cast<ManagementObject>()
+                                                              .OrderBy(p => Convert.ToUInt32(p.Properties["Index"].Value))
+                                                              .ToList();
+
+            // Let's just show all the properties for all physical adapters.
+            foreach (ManagementObject mo in managementObjectList)
+            {
+                foreach (PropertyData pd in mo.Properties)
+                    Console.WriteLine(pd.Name + ": " + (pd.Value ?? "N/A"));
+            }
+
+

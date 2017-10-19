@@ -1,6 +1,6 @@
-﻿
-using System;
+﻿using System;
 using System.Net;
+
 namespace LANServerInfo
 {
     class Program
@@ -26,10 +26,73 @@ namespace LANServerInfo
         {
             IPAddress ip = IPAddress.Parse(MyIPAddress);
 
+
+            //ServerInfos.GetServerDetails(MyIPAddressLapTop);
+
+            //WMIProcess.GetWMIRunningProcessName(MyIPAddress);
+
+            Console.WriteLine("The End********************");
+
+            //ConnectionOptions conn = new ConnectionOptions();
+            //conn.Username = "Administrator";
+            //conn.Password = "admin";
+            //ManagementScope wmiScope = new ManagementScope(string.Format("\\\\{0}\\root\\cimv2", MyIPAddressLapTop), conn);
+            //ServerInfos.SystemProcessInfo(wmiScope);
+
+
+            //Helper.GetServerPingStatus(MyIPAddress);
+
+            //List<SytemInfo> list = ServerDetails.Win32_ListItems(MyIPAddressLapTop);
+            //var fileToCreate = Global.OutputDirCustom + "\\" + Global.fileNames[0];
+            ////File.WriteAllLines(fileToCreate, abc, Encoding.UTF8);
+
+            //string abc = string.Empty;
+            //foreach (SytemInfo x in list)
+            //{
+            //    abc = abc + x.PropertyName + ": " + x.PropertyValue + "\n";
+            //}
+
+            //File.WriteAllText(fileToCreate, abc);
+
+
+            //Console.WriteLine("The End********************");
+
+
+            //ManagementObjectSearcher wmi = new ManagementObjectSearcher("SELECT * FROM meta_class WHERE __CLASS LIKE 'Win32_%'");
+            //foreach (ManagementObject obj in wmi.Get())
+            //    Console.WriteLine(obj["__CLASS"]);
+
+            //ManagementClass osClass = new ManagementClass("Win32_OperatingSystem");
+            //foreach (ManagementObject queryObj in osClass.GetInstances())
+            //{
+            //    foreach (PropertyData prop in queryObj.Properties)
+            //    {
+            //        //add these to your arraylist or dictionary 
+            //        Console.WriteLine("{0}: {1}", prop.Name, prop.Value);
+            //    }
+            //}
+
+
+            //ObjectQuery wql = new ObjectQuery("SELECT * FROM Win32_OperatingSystem");
+            //ManagementObjectSearcher searcher = new ManagementObjectSearcher(wql);
+            //ManagementObjectCollection results = searcher.Get();
+
+            //foreach (ManagementObject result in results)
+            //{
+            //    Console.WriteLine("Total Visible Memory: {0}KB", result["TotalVisibleMemorySize"]);
+            //    Console.WriteLine("Free Physical Memory: {0}KB", result["FreePhysicalMemory"]);
+            //    Console.WriteLine("Total Virtual Memory: {0}KB", result["TotalVirtualMemorySize"]);
+            //    Console.WriteLine("Free Virtual Memory: {0}KB", result["FreeVirtualMemory"]);
+            //}
+
+
+            //StorageDetails.SampleWMI(MyIPAddressLapTop);
+
             //ServerDetails.GetServerInfoByIPAddress("devstation");
 
             //StorageDetails.GetDriveInfoBytes2(MyIPAddressLapTop);
-            StorageDetails.RAMTotSize(MyIPAddressLapTop);
+
+            //var abc = StorageDetails.RAMTotSize(MyIPAddressLapTop);
 
             //TestCode.ConnectingToWMI(MyIPAddressLapTop);
 

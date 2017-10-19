@@ -1,0 +1,7035 @@
+************Win32_ComputerSystem: Win32_ComputerSystem************
+AdminPasswordStatus: 3
+AutomaticManagedPagefile: True
+AutomaticResetBootOption: True
+AutomaticResetCapability: True
+BootOptionOnLimit: 
+BootOptionOnWatchDog: 
+BootROMSupported: True
+BootStatus: System.UInt16[]
+BootupState: Normal boot
+Caption: DEVSTATION
+ChassisBootupState: 3
+ChassisSKUNumber: Default string
+CreationClassName: Win32_ComputerSystem
+CurrentTimeZone: 360
+DaylightInEffect: 
+Description: AT/AT COMPATIBLE
+DNSHostName: devstation
+Domain: WORKGROUP
+DomainRole: 0
+EnableDaylightSavingsTime: True
+FrontPanelResetStatus: 3
+HypervisorPresent: True
+InfraredSupported: False
+InitialLoadInfo: 
+InstallDate: 
+KeyboardPasswordStatus: 3
+LastLoadInfo: 
+Manufacturer: ASUSTeK COMPUTER INC.
+Model: P453UJ
+Name: DEVSTATION
+NameFormat: 
+NetworkServerModeEnabled: True
+NumberOfLogicalProcessors: 4
+NumberOfProcessors: 1
+OEMLogoBitmap: 
+OEMStringArray: System.String[]
+PartOfDomain: False
+PauseAfterReset: -1
+PCSystemType: 2
+PCSystemTypeEx: 2
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+PowerOnPasswordStatus: 3
+PowerState: 0
+PowerSupplyState: 3
+PrimaryOwnerContact: 
+PrimaryOwnerName: ASUS
+ResetCapability: 1
+ResetCount: -1
+ResetLimit: -1
+Roles: System.String[]
+Status: OK
+SupportContactDescription: 
+SystemFamily: P
+SystemSKUNumber: ASUS-NotebookSKU
+SystemStartupDelay: 
+SystemStartupOptions: 
+SystemStartupSetting: 
+SystemType: x64-based PC
+ThermalState: 3
+TotalPhysicalMemory: 17063751680
+UserName: 
+WakeUpType: 6
+Workgroup: WORKGROUP
+: 
+
+
+
+
+
+
+************Win32_DisplayConfiguration: Win32_DisplayConfiguration************
+BitsPerPel: 32
+Caption: NVIDIA GeForce 920M  
+Description: NVIDIA GeForce 920M  
+DeviceName: NVIDIA GeForce 920M  
+DisplayFlags: 0
+DisplayFrequency: 60
+DitherType: 
+DriverVersion: 10.18.13.5443
+ICMIntent: 
+ICMMethod: 
+LogPixels: 96
+PelsHeight: 768
+PelsWidth: 1024
+SettingID: NVIDIA GeForce 920M  
+SpecificationVersion: 1025
+: 
+
+
+
+
+
+
+************Win32_OperatingSystem: Win32_OperatingSystem************
+BootDevice: \Device\HarddiskVolume1
+BuildNumber: 10240
+BuildType: Multiprocessor Free
+Caption: Microsoft Windows 10 Pro
+CodeSet: 1252
+CountryCode: 1
+CreationClassName: Win32_OperatingSystem
+CSCreationClassName: Win32_ComputerSystem
+CSDVersion: 
+CSName: DEVSTATION
+CurrentTimeZone: 360
+DataExecutionPrevention_32BitApplications: True
+DataExecutionPrevention_Available: True
+DataExecutionPrevention_Drivers: True
+DataExecutionPrevention_SupportPolicy: 2
+Debug: False
+Description: 
+Distributed: False
+EncryptionLevel: 256
+ForegroundApplicationBoost: 2
+FreePhysicalMemory: 14299344
+FreeSpaceInPagingFiles: 2475800
+FreeVirtualMemory: 16648388
+InstallDate: 20160323035808.000000+360
+LargeSystemCache: 
+LastBootUpTime: 20170921025005.622834+360
+LocalDateTime: 20171018141657.924000+360
+Locale: 0409
+Manufacturer: Microsoft Corporation
+MaxNumberOfProcesses: 4294967295
+MaxProcessMemorySize: 137438953344
+MUILanguages: System.String[]
+Name: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+NumberOfLicensedUsers: 0
+NumberOfProcesses: 80
+NumberOfUsers: 1
+OperatingSystemSKU: 48
+Organization: 
+OSArchitecture: 64-bit
+OSLanguage: 1033
+OSProductSuite: 256
+OSType: 18
+OtherTypeDescription: 
+PAEEnabled: 
+PlusProductID: 
+PlusVersionNumber: 
+PortableOperatingSystem: False
+Primary: True
+ProductType: 1
+RegisteredUser: ASUS
+SerialNumber: 00331-10000-00001-AA946
+ServicePackMajorVersion: 0
+ServicePackMinorVersion: 0
+SizeStoredInPagingFiles: 2490368
+Status: OK
+SuiteMask: 272
+SystemDevice: \Device\HarddiskVolume1
+SystemDirectory: C:\Windows\system32
+SystemDrive: C:
+TotalSwapSpaceSize: 
+TotalVirtualMemorySize: 19154188
+TotalVisibleMemorySize: 16663820
+Version: 10.0.10240
+WindowsDirectory: C:\Windows
+: 
+
+
+
+
+
+
+************win32_processor: win32_processor************
+AddressWidth: 64
+Architecture: 9
+AssetTag: To Be Filled By O.E.M.
+Availability: 3
+Caption: Intel64 Family 6 Model 78 Stepping 3
+Characteristics: 252
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CpuStatus: 1
+CreationClassName: Win32_Processor
+CurrentClockSpeed: 897
+CurrentVoltage: 9
+DataWidth: 64
+Description: Intel64 Family 6 Model 78 Stepping 3
+DeviceID: CPU0
+ErrorCleared: 
+ErrorDescription: 
+ExtClock: 100
+Family: 198
+InstallDate: 
+L2CacheSize: 512
+L2CacheSpeed: 
+L3CacheSize: 4096
+L3CacheSpeed: 0
+LastErrorCode: 
+Level: 6
+LoadPercentage: 5
+Manufacturer: GenuineIntel
+MaxClockSpeed: 2592
+Name: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+NumberOfCores: 2
+NumberOfEnabledCore: 2
+NumberOfLogicalProcessors: 4
+OtherFamilyDescription: 
+PartNumber: To Be Filled By O.E.M.
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProcessorId: BFEBFBFF000406E3
+ProcessorType: 3
+Revision: 19971
+Role: CPU
+SecondLevelAddressTranslationExtensions: False
+SerialNumber: To Be Filled By O.E.M.
+SocketDesignation: U3E1
+Status: OK
+StatusInfo: 3
+Stepping: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+ThreadCount: 4
+UniqueId: 
+UpgradeMethod: 1
+Version: 
+VirtualizationFirmwareEnabled: False
+VMMonitorModeExtensions: False
+VoltageCaps: 
+: 
+
+
+
+
+
+
+************Win32_BIOS: Win32_BIOS************
+BiosCharacteristics: System.UInt16[]
+BIOSVersion: System.String[]
+BuildNumber: 
+Caption: Default System BIOS
+CodeSet: 
+CurrentLanguage: en|US|iso8859-1
+Description: Default System BIOS
+EmbeddedControllerMajorVersion: 255
+EmbeddedControllerMinorVersion: 255
+IdentificationCode: 
+InstallableLanguages: 1
+InstallDate: 
+LanguageEdition: 
+ListOfLanguages: System.String[]
+Manufacturer: ASUSTeK COMPUTER INC.
+Name: Default System BIOS
+OtherTargetOS: 
+PrimaryBIOS: True
+ReleaseDate: 20160204000000.000000+000
+SerialNumber: G3NXCV07H863103     
+SMBIOSBIOSVersion: P453UJ.207
+SMBIOSMajorVersion: 3
+SMBIOSMinorVersion: 0
+SMBIOSPresent: True
+SoftwareElementID: Default System BIOS
+SoftwareElementState: 3
+Status: OK
+SystemBiosMajorVersion: 5
+SystemBiosMinorVersion: 11
+TargetOperatingSystem: 0
+Version: BIOS Date: 02/04/16 21:25:55 Ver: 05.0000B
+: 
+
+
+
+
+
+
+************Win32_LogicalDisk: Win32_LogicalDisk************
+Access: 0
+Availability: 
+BlockSize: 
+Caption: C:
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_LogicalDisk
+Description: Local Fixed Disk
+DeviceID: C:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 152012115968
+InstallDate: 
+LastErrorCode: 
+MaximumComponentLength: 255
+MediaType: 12
+Name: C:
+NumberOfBlocks: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+ProviderName: 
+Purpose: 
+QuotasDisabled: True
+QuotasIncomplete: False
+QuotasRebuilding: False
+Size: 268440694784
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+VolumeDirty: False
+VolumeName: OS-W10
+VolumeSerialNumber: 9EAB105F
+Access: 
+Availability: 
+BlockSize: 
+Caption: D:
+Compressed: 
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_LogicalDisk
+Description: CD-ROM Disc
+DeviceID: D:
+DriveType: 5
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: 
+FreeSpace: 
+InstallDate: 
+LastErrorCode: 
+MaximumComponentLength: 
+MediaType: 11
+Name: D:
+NumberOfBlocks: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+ProviderName: 
+Purpose: 
+QuotasDisabled: 
+QuotasIncomplete: 
+QuotasRebuilding: 
+Size: 
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: 
+SupportsFileBasedCompression: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+VolumeDirty: 
+VolumeName: 
+VolumeSerialNumber: 
+Access: 0
+Availability: 
+BlockSize: 
+Caption: E:
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_LogicalDisk
+Description: Local Fixed Disk
+DeviceID: E:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 290466029568
+InstallDate: 
+LastErrorCode: 
+MaximumComponentLength: 255
+MediaType: 12
+Name: E:
+NumberOfBlocks: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+ProviderName: 
+Purpose: 
+QuotasDisabled: True
+QuotasIncomplete: False
+QuotasRebuilding: False
+Size: 536866713600
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+VolumeDirty: False
+VolumeName: Big Data Zone
+VolumeSerialNumber: 470516E0
+Access: 0
+Availability: 
+BlockSize: 
+Caption: F:
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_LogicalDisk
+Description: Local Fixed Disk
+DeviceID: F:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 64732471296
+InstallDate: 
+LastErrorCode: 
+MaximumComponentLength: 255
+MediaType: 12
+Name: F:
+NumberOfBlocks: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+ProviderName: 
+Purpose: 
+QuotasDisabled: True
+QuotasIncomplete: False
+QuotasRebuilding: False
+Size: 194891476992
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+VolumeDirty: False
+VolumeName: Apps Zone
+VolumeSerialNumber: 49FECEE0
+Access: 
+Availability: 
+BlockSize: 
+Caption: G:
+Compressed: 
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_LogicalDisk
+Description: CD-ROM Disc
+DeviceID: G:
+DriveType: 5
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: 
+FreeSpace: 
+InstallDate: 
+LastErrorCode: 
+MaximumComponentLength: 
+MediaType: 11
+Name: G:
+NumberOfBlocks: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+ProviderName: 
+Purpose: 
+QuotasDisabled: 
+QuotasIncomplete: 
+QuotasRebuilding: 
+Size: 
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: 
+SupportsFileBasedCompression: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+VolumeDirty: 
+VolumeName: 
+VolumeSerialNumber: 
+: 
+
+
+
+
+
+
+************Win32_DiskDrive: Win32_DiskDrive************
+Availability: 
+BytesPerSector: 512
+Capabilities: System.UInt16[]
+CapabilityDescriptions: System.String[]
+Caption: HGST HTS541010A7E630
+CompressionMethod: 
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_DiskDrive
+DefaultBlockSize: 
+Description: Disk drive
+DeviceID: \\.\PHYSICALDRIVE0
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FirmwareRevision: SE0OA4A0
+Index: 0
+InstallDate: 
+InterfaceType: IDE
+LastErrorCode: 
+Manufacturer: (Standard disk drives)
+MaxBlockSize: 
+MaxMediaSize: 
+MediaLoaded: True
+MediaType: Fixed hard disk media
+MinBlockSize: 
+Model: HGST HTS541010A7E630
+Name: \\.\PHYSICALDRIVE0
+NeedsCleaning: 
+NumberOfMediaSupported: 
+Partitions: 3
+PNPDeviceID: SCSI\DISK&VEN_HGST&PROD_HTS541010A7E630\4&F67481A&0&000000
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+SCSIBus: 0
+SCSILogicalUnit: 0
+SCSIPort: 0
+SCSITargetId: 0
+SectorsPerTrack: 63
+SerialNumber:       S0E001SSHP8VKK
+Signature: 1561239115
+Size: 1000202273280
+Status: OK
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TotalCylinders: 121601
+TotalHeads: 255
+TotalSectors: 1953520065
+TotalTracks: 31008255
+TracksPerCylinder: 255
+: 
+
+
+
+
+
+
+************Win32_PhysicalMemory: Win32_PhysicalMemory************
+Attributes: 2
+BankLabel: BANK 0
+Capacity: 8589934592
+Caption: Physical Memory
+ConfiguredClockSpeed: 2133
+ConfiguredVoltage: 1200
+CreationClassName: Win32_PhysicalMemory
+DataWidth: 64
+Description: Physical Memory
+DeviceLocator: ChannelA-DIMM0
+FormFactor: 12
+HotSwappable: 
+InstallDate: 
+InterleaveDataDepth: 1
+InterleavePosition: 1
+Manufacturer: 0420
+MaxVoltage: 0
+MemoryType: 0
+MinVoltage: 0
+Model: 
+Name: Physical Memory
+OtherIdentifyingInfo: 
+PartNumber:                     
+PositionInRow: 
+PoweredOn: 
+Removable: 
+Replaceable: 
+SerialNumber: 16180100
+SKU: 
+SMBIOSMemoryType: 26
+Speed: 2133
+Status: 
+Tag: Physical Memory 0
+TotalWidth: 64
+TypeDetail: 128
+Version: 
+Attributes: 2
+BankLabel: BANK 2
+Capacity: 8589934592
+Caption: Physical Memory
+ConfiguredClockSpeed: 2133
+ConfiguredVoltage: 1200
+CreationClassName: Win32_PhysicalMemory
+DataWidth: 64
+Description: Physical Memory
+DeviceLocator: ChannelB-DIMM0
+FormFactor: 12
+HotSwappable: 
+InstallDate: 
+InterleaveDataDepth: 1
+InterleavePosition: 2
+Manufacturer: Samsung
+MaxVoltage: 0
+MemoryType: 0
+MinVoltage: 0
+Model: 
+Name: Physical Memory
+OtherIdentifyingInfo: 
+PartNumber: M471A1G43DB0-CPB    
+PositionInRow: 
+PoweredOn: 
+Removable: 
+Replaceable: 
+SerialNumber: 15511575
+SKU: 
+SMBIOSMemoryType: 26
+Speed: 2133
+Status: 
+Tag: Physical Memory 1
+TotalWidth: 64
+TypeDetail: 128
+Version: 
+: 
+
+
+
+
+
+
+************Win32_NetworkAdapter: Win32_NetworkAdapter************
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000000] Microsoft Kernel Debug Network Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Microsoft Kernel Debug Network Adapter
+DeviceID: 0
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 0
+InstallDate: 
+Installed: True
+InterfaceIndex: 3
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Microsoft Kernel Debug Network Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: ROOT\KDNIC\0000
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Microsoft Kernel Debug Network Adapter
+ServiceName: kdnic
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Tunnel
+AdapterTypeId: 15
+AutoSense: 
+Availability: 3
+Caption: [00000001] Microsoft ISATAP Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Microsoft ISATAP Adapter
+DeviceID: 1
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 1
+InstallDate: 
+Installed: True
+InterfaceIndex: 16
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Microsoft ISATAP Adapter #2
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\IP_TUNNEL_VBUS\ISATAP_1
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Microsoft ISATAP Adapter
+ServiceName: tunnel
+Speed: 100000
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000002] Realtek PCIe GBE Family Controller
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Realtek PCIe GBE Family Controller
+DeviceID: 2
+ErrorCleared: 
+ErrorDescription: 
+GUID: {91C92892-88FD-4A10-B67E-C41A0F1668E3}
+Index: 2
+InstallDate: 
+Installed: True
+InterfaceIndex: 15
+LastErrorCode: 
+MACAddress: D0:17:C2:03:1B:33
+Manufacturer: Realtek
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Realtek PCIe GBE Family Controller
+NetConnectionID: Ethernet
+NetConnectionStatus: 7
+NetEnabled: False
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: PCI\VEN_10EC&DEV_8168&SUBSYS_205F1043&REV_10\01000000684CE00000
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Realtek PCIe GBE Family Controller
+ServiceName: rt640x64
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000003] Microsoft Teredo Tunneling Adapter
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_NetworkAdapter
+Description: Microsoft Teredo Tunneling Adapter
+DeviceID: 3
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 3
+InstallDate: 
+Installed: True
+InterfaceIndex: 5
+LastErrorCode: 
+MACAddress: 
+Manufacturer: 
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Microsoft Teredo Tunneling Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Microsoft Teredo Tunneling Adapter
+ServiceName: 
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000004] Bluetooth Device (RFCOMM Protocol TDI)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Bluetooth Device (RFCOMM Protocol TDI)
+DeviceID: 4
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 4
+InstallDate: 
+Installed: True
+InterfaceIndex: 2
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Bluetooth Device (RFCOMM Protocol TDI)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: BTH\MS_RFCOMM\6&34019FBB&0&0
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Bluetooth Device (RFCOMM Protocol TDI)
+ServiceName: RFCOMM
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000005] Bluetooth Device (Personal Area Network)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Bluetooth Device (Personal Area Network)
+DeviceID: 5
+ErrorCleared: 
+ErrorDescription: 
+GUID: {F304902C-EC16-4001-A17A-0D36659869B9}
+Index: 5
+InstallDate: 
+Installed: True
+InterfaceIndex: 23
+LastErrorCode: 
+MACAddress: 80:A5:89:D9:3E:EA
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Bluetooth Device (Personal Area Network)
+NetConnectionID: Bluetooth Network Connection
+NetConnectionStatus: 7
+NetEnabled: False
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: BTH\MS_BTHPAN\6&34019FBB&0&2
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Bluetooth Device (Personal Area Network)
+ServiceName: BthPan
+Speed: 3000000
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000006] Qualcomm Atheros QCA9377 Wireless Network Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Qualcomm Atheros QCA9377 Wireless Network Adapter
+DeviceID: 6
+ErrorCleared: 
+ErrorDescription: 
+GUID: {77BAC7F6-2B07-4200-BE00-C25401C13429}
+Index: 6
+InstallDate: 
+Installed: True
+InterfaceIndex: 11
+LastErrorCode: 
+MACAddress: 80:A5:89:D9:3E:EB
+Manufacturer: Qualcomm Atheros Communications Inc.
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Qualcomm Atheros QCA9377 Wireless Network Adapter
+NetConnectionID: Wi-Fi 2
+NetConnectionStatus: 2
+NetEnabled: True
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: PCI\VEN_168C&DEV_0042&SUBSYS_22311A3B&REV_30\4&362757AF&0&00E5
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Qualcomm Atheros QCA9377 Wireless Network Adapter
+ServiceName: Qcamain10x64
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Tunnel
+AdapterTypeId: 15
+AutoSense: 
+Availability: 3
+Caption: [00000007] Microsoft ISATAP Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Microsoft ISATAP Adapter
+DeviceID: 7
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 7
+InstallDate: 
+Installed: True
+InterfaceIndex: 9
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Microsoft ISATAP Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\IP_TUNNEL_VBUS\ISATAP_0
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Microsoft ISATAP Adapter
+ServiceName: tunnel
+Speed: 100000
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000009] WAN Miniport (SSTP)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (SSTP)
+DeviceID: 9
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 9
+InstallDate: 
+Installed: True
+InterfaceIndex: 22
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (SSTP)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_SSTPMINIPORT
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (SSTP)
+ServiceName: RasSstp
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000010] WAN Miniport (IKEv2)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (IKEv2)
+DeviceID: 10
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 10
+InstallDate: 
+Installed: True
+InterfaceIndex: 4
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (IKEv2)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_AGILEVPNMINIPORT
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (IKEv2)
+ServiceName: RasAgileVpn
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000011] Hyper-V Virtual Switch Extension Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Switch Extension Adapter
+DeviceID: 11
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 11
+InstallDate: 
+Installed: True
+InterfaceIndex: 13
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Switch Extension Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: ROOT\VMS_VSMP\0002
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Switch Extension Adapter
+ServiceName: VMSMP
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000012] Hyper-V Virtual Ethernet Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Ethernet Adapter
+DeviceID: 12
+ErrorCleared: 
+ErrorDescription: 
+GUID: {38C2F3FD-4549-4DA7-B65C-9B09F3F3E604}
+Index: 12
+InstallDate: 
+Installed: True
+InterfaceIndex: 7
+LastErrorCode: 
+MACAddress: D0:17:C2:03:1B:33
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Ethernet Adapter
+NetConnectionID: vEthernet (Realtek PCIe GBE Family Controller Virtual Switch)
+NetConnectionStatus: 7
+NetEnabled: False
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: ROOT\VMS_MP\0002
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Ethernet Adapter
+ServiceName: VMSMP
+Speed: 0
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000013] WAN Miniport (L2TP)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (L2TP)
+DeviceID: 13
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 13
+InstallDate: 
+Installed: True
+InterfaceIndex: 8
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (L2TP)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_L2TPMINIPORT
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (L2TP)
+ServiceName: Rasl2tp
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000014] WAN Miniport (PPTP)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (PPTP)
+DeviceID: 14
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 14
+InstallDate: 
+Installed: True
+InterfaceIndex: 19
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (PPTP)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_PPTPMINIPORT
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (PPTP)
+ServiceName: PptpMiniport
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: 
+AdapterTypeId: 
+AutoSense: 
+Availability: 3
+Caption: [00000015] WAN Miniport (PPPOE)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (PPPOE)
+DeviceID: 15
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 15
+InstallDate: 
+Installed: True
+InterfaceIndex: 18
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (PPPOE)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_PPPOEMINIPORT
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (PPPOE)
+ServiceName: RasPppoe
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000016] WAN Miniport (IP)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (IP)
+DeviceID: 16
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 16
+InstallDate: 
+Installed: True
+InterfaceIndex: 14
+LastErrorCode: 
+MACAddress: C4:CD:20:52:41:53
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (IP)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_NDISWANIP
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (IP)
+ServiceName: NdisWan
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000017] WAN Miniport (IPv6)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (IPv6)
+DeviceID: 17
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 17
+InstallDate: 
+Installed: True
+InterfaceIndex: 6
+LastErrorCode: 
+MACAddress: C2:45:20:52:41:53
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (IPv6)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_NDISWANIPV6
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (IPv6)
+ServiceName: NdisWan
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000018] WAN Miniport (Network Monitor)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: WAN Miniport (Network Monitor)
+DeviceID: 18
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 18
+InstallDate: 
+Installed: True
+InterfaceIndex: 20
+LastErrorCode: 
+MACAddress: C0:F6:20:52:41:53
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: WAN Miniport (Network Monitor)
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: SWD\MSRRAS\MS_NDISWANBH
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: WAN Miniport (Network Monitor)
+ServiceName: NdisWan
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000019] Hyper-V Virtual Switch Extension Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Switch Extension Adapter
+DeviceID: 19
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 19
+InstallDate: 
+Installed: True
+InterfaceIndex: 12
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Switch Extension Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: ROOT\VMS_VSMP\0003
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Switch Extension Adapter
+ServiceName: VMSMP
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000020] Microsoft Network Adapter Multiplexor Driver
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Microsoft Network Adapter Multiplexor Driver
+DeviceID: 20
+ErrorCleared: 
+ErrorDescription: 
+GUID: {A8C36F3F-5A0C-4B20-9253-4BEF9443EB6D}
+Index: 20
+InstallDate: 
+Installed: True
+InterfaceIndex: 17
+LastErrorCode: 
+MACAddress: 80:A5:89:D9:3E:EB
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Microsoft Network Adapter Multiplexor Driver
+NetConnectionID: Ethernet 2
+NetConnectionStatus: 2
+NetEnabled: True
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: COMPOSITEBUS\MS_IMPLAT_MP\{A8C36F3F-5A0C-4B20-9253-4BEF9443EB6D}
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Microsoft Network Adapter Multiplexor Driver
+ServiceName: NdisImPlatformMp
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000021] Hyper-V Virtual Ethernet Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Ethernet Adapter
+DeviceID: 21
+ErrorCleared: 
+ErrorDescription: 
+GUID: {FCD82206-8F8B-4056-B397-40E5C8E222EB}
+Index: 21
+InstallDate: 
+Installed: True
+InterfaceIndex: 24
+LastErrorCode: 
+MACAddress: 80:A5:89:D9:3E:EB
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Ethernet Adapter #2
+NetConnectionID: vEthernet (Qualcomm Atheros QCA9377 Wireless Network Adapter #2 Virtual Switch)
+NetConnectionStatus: 2
+NetEnabled: True
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: ROOT\VMS_MP\0003
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Ethernet Adapter
+ServiceName: VMSMP
+Speed: 150000000
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000022] Hyper-V Virtual Switch Extension Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Switch Extension Adapter
+DeviceID: 22
+ErrorCleared: 
+ErrorDescription: 
+GUID: 
+Index: 22
+InstallDate: 
+Installed: True
+InterfaceIndex: 21
+LastErrorCode: 
+MACAddress: 
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Switch Extension Adapter
+NetConnectionID: 
+NetConnectionStatus: 
+NetEnabled: 
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: False
+PNPDeviceID: ROOT\VMS_VSMP\0004
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Switch Extension Adapter
+ServiceName: VMSMP
+Speed: 
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: 
+Availability: 3
+Caption: [00000023] Hyper-V Virtual Ethernet Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Hyper-V Virtual Ethernet Adapter
+DeviceID: 23
+ErrorCleared: 
+ErrorDescription: 
+GUID: {755DBD46-42D8-4733-B04B-69B4180D269C}
+Index: 23
+InstallDate: 
+Installed: True
+InterfaceIndex: 10
+LastErrorCode: 
+MACAddress: 00:15:5D:31:E9:F0
+Manufacturer: Microsoft
+MaxNumberControlled: 0
+MaxSpeed: 
+Name: Hyper-V Virtual Ethernet Adapter #3
+NetConnectionID: vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)
+NetConnectionStatus: 2
+NetEnabled: True
+NetworkAddresses: 
+PermanentAddress: 
+PhysicalAdapter: True
+PNPDeviceID: ROOT\VMS_MP\0004
+PowerManagementCapabilities: 
+PowerManagementSupported: False
+ProductName: Hyper-V Virtual Ethernet Adapter
+ServiceName: VMSMP
+Speed: 10000000000
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+: 
+
+
+
+
+
+
+************Win32_NetworkAdapterConfiguration: Win32_NetworkAdapterConfiguration************
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000000] Microsoft Kernel Debug Network Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Microsoft Kernel Debug Network Adapter
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 0
+InterfaceIndex: 3
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: kdnic
+SettingID: {26B11A49-585F-4B43-A90C-9AF3C3D7B25B}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000001] Microsoft ISATAP Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Microsoft ISATAP Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 1
+InterfaceIndex: 16
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: tunnel
+SettingID: {9D594FC3-F39F-4C2D-A761-4EBC508BBEE5}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000002] Realtek PCIe GBE Family Controller
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Realtek PCIe GBE Family Controller
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 2
+InterfaceIndex: 15
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: D0:17:C2:03:1B:33
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: rt640x64
+SettingID: {91C92892-88FD-4A10-B67E-C41A0F1668E3}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000003] Microsoft Teredo Tunneling Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Microsoft Teredo Tunneling Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 3
+InterfaceIndex: 5
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: tunnel
+SettingID: {364CE562-8D3F-4B23-ACC9-43BAD8B87D78}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000004] Bluetooth Device (RFCOMM Protocol TDI)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Bluetooth Device (RFCOMM Protocol TDI)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 4
+InterfaceIndex: 2
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: RFCOMM
+SettingID: {0D3249E3-870E-4C95-A26C-5E7069C1BDEE}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000005] Bluetooth Device (Personal Area Network)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Bluetooth Device (Personal Area Network)
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 5
+InterfaceIndex: 23
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 80:A5:89:D9:3E:EA
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: BthPan
+SettingID: {F304902C-EC16-4001-A17A-0D36659869B9}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000006] Qualcomm Atheros QCA9377 Wireless Network Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Qualcomm Atheros QCA9377 Wireless Network Adapter
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 6
+InterfaceIndex: 11
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 80:A5:89:D9:3E:EB
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: Qcamain10x64
+SettingID: {77BAC7F6-2B07-4200-BE00-C25401C13429}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000007] Microsoft ISATAP Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Microsoft ISATAP Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 7
+InterfaceIndex: 9
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: tunnel
+SettingID: {70A5110F-1574-4325-9343-2E78E263697D}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000009] WAN Miniport (SSTP)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (SSTP)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 9
+InterfaceIndex: 22
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: RasSstp
+SettingID: {E5E62BA1-AB3C-4C2A-9A20-E920113852DF}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000010] WAN Miniport (IKEv2)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (IKEv2)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 10
+InterfaceIndex: 4
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: RasAgileVpn
+SettingID: {313BEA58-53DD-42B7-BAC9-C3EBF889CF59}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000011] Hyper-V Virtual Switch Extension Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Switch Extension Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 11
+InterfaceIndex: 13
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {829C2E2C-94CD-4211-80D0-F2E735876085}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000012] Hyper-V Virtual Ethernet Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Ethernet Adapter
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 12
+InterfaceIndex: 7
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: D0:17:C2:03:1B:33
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {38C2F3FD-4549-4DA7-B65C-9B09F3F3E604}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000013] WAN Miniport (L2TP)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (L2TP)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 13
+InterfaceIndex: 8
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: Rasl2tp
+SettingID: {5EE8223A-FD75-434A-AC07-5E39AEC3F62B}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000014] WAN Miniport (PPTP)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (PPTP)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 14
+InterfaceIndex: 19
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: PptpMiniport
+SettingID: {C984BD3F-16B3-46A8-9B51-1B19A9A0614F}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000015] WAN Miniport (PPPOE)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (PPPOE)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 15
+InterfaceIndex: 18
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: RasPppoe
+SettingID: {B38BB353-A04F-4020-A2CE-96D46736092B}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000016] WAN Miniport (IP)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (IP)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 16
+InterfaceIndex: 14
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: C4:CD:20:52:41:53
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: NdisWan
+SettingID: {8A4E0172-B228-4BB9-8419-5F480C0AA74B}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000017] WAN Miniport (IPv6)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (IPv6)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 17
+InterfaceIndex: 6
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: C2:45:20:52:41:53
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: NdisWan
+SettingID: {3875988A-5FA2-45EB-8B7A-60175F0606B2}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000018] WAN Miniport (Network Monitor)
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: WAN Miniport (Network Monitor)
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 18
+InterfaceIndex: 20
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: C0:F6:20:52:41:53
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: NdisWan
+SettingID: {CF4637E4-05E3-447C-B396-65FAA790C386}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000019] Hyper-V Virtual Switch Extension Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Switch Extension Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 19
+InterfaceIndex: 12
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {7B6404BD-DB26-4F98-949B-013207AB5BBC}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000020] Microsoft Network Adapter Multiplexor Driver
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Microsoft Network Adapter Multiplexor Driver
+DHCPEnabled: True
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 20
+InterfaceIndex: 17
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 80:A5:89:D9:3E:EB
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: NdisImPlatformMp
+SettingID: {A8C36F3F-5A0C-4B20-9253-4BEF9443EB6D}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000021] Hyper-V Virtual Ethernet Adapter
+DatabasePath: %SystemRoot%\System32\drivers\etc
+DeadGWDetectEnabled: 
+DefaultIPGateway: System.String[]
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Ethernet Adapter #2
+DHCPEnabled: True
+DHCPLeaseExpires: 20171018161639.000000+360
+DHCPLeaseObtained: 20171018141639.000000+360
+DHCPServer: 192.168.1.1
+DNSDomain: Home99
+DNSDomainSuffixSearchOrder: System.String[]
+DNSEnabledForWINSResolution: False
+DNSHostName: devstation
+DNSServerSearchOrder: System.String[]
+DomainDNSRegistrationEnabled: False
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: True
+GatewayCostMetric: System.UInt16[]
+IGMPLevel: 
+Index: 21
+InterfaceIndex: 24
+IPAddress: System.String[]
+IPConnectionMetric: 20
+IPEnabled: True
+IPFilterSecurityEnabled: False
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: System.String[]
+IPSecPermitTCPPorts: System.String[]
+IPSecPermitUDPPorts: System.String[]
+IPSubnet: System.String[]
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 80:A5:89:D9:3E:EB
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {FCD82206-8F8B-4056-B397-40E5C8E222EB}
+TcpipNetbiosOptions: 0
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: True
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000022] Hyper-V Virtual Switch Extension Adapter
+DatabasePath: 
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Switch Extension Adapter
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: 
+DNSEnabledForWINSResolution: 
+DNSHostName: 
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: 
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: 
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 22
+InterfaceIndex: 21
+IPAddress: 
+IPConnectionMetric: 
+IPEnabled: False
+IPFilterSecurityEnabled: 
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: 
+IPSecPermitTCPPorts: 
+IPSecPermitUDPPorts: 
+IPSubnet: 
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {CFC292D4-F189-4518-BA00-DFAFEE017E39}
+TcpipNetbiosOptions: 
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: 
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+ArpAlwaysSourceRoute: 
+ArpUseEtherSNAP: 
+Caption: [00000023] Hyper-V Virtual Ethernet Adapter
+DatabasePath: %SystemRoot%\System32\drivers\etc
+DeadGWDetectEnabled: 
+DefaultIPGateway: 
+DefaultTOS: 
+DefaultTTL: 
+Description: Hyper-V Virtual Ethernet Adapter #3
+DHCPEnabled: False
+DHCPLeaseExpires: 
+DHCPLeaseObtained: 
+DHCPServer: 
+DNSDomain: 
+DNSDomainSuffixSearchOrder: System.String[]
+DNSEnabledForWINSResolution: False
+DNSHostName: devstation
+DNSServerSearchOrder: 
+DomainDNSRegistrationEnabled: False
+ForwardBufferMemory: 
+FullDNSRegistrationEnabled: True
+GatewayCostMetric: 
+IGMPLevel: 
+Index: 23
+InterfaceIndex: 10
+IPAddress: System.String[]
+IPConnectionMetric: 5
+IPEnabled: True
+IPFilterSecurityEnabled: False
+IPPortSecurityEnabled: 
+IPSecPermitIPProtocols: System.String[]
+IPSecPermitTCPPorts: System.String[]
+IPSecPermitUDPPorts: System.String[]
+IPSubnet: System.String[]
+IPUseZeroBroadcast: 
+IPXAddress: 
+IPXEnabled: 
+IPXFrameType: 
+IPXMediaType: 
+IPXNetworkNumber: 
+IPXVirtualNetNumber: 
+KeepAliveInterval: 
+KeepAliveTime: 
+MACAddress: 00:15:5D:31:E9:F0
+MTU: 
+NumForwardPackets: 
+PMTUBHDetectEnabled: 
+PMTUDiscoveryEnabled: 
+ServiceName: VMSMP
+SettingID: {755DBD46-42D8-4733-B04B-69B4180D269C}
+TcpipNetbiosOptions: 0
+TcpMaxConnectRetransmissions: 
+TcpMaxDataRetransmissions: 
+TcpNumConnections: 
+TcpUseRFC1122UrgentPointer: 
+TcpWindowSize: 
+WINSEnableLMHostsLookup: True
+WINSHostLookupFile: 
+WINSPrimaryServer: 
+WINSScopeID: 
+WINSSecondaryServer: 
+: 
+
+
+
+
+
+
+************Win32_PerfFormattedData_PerfOS_Processor: Win32_PerfFormattedData_PerfOS_Processor************
+C1TransitionsPersec: 51
+C2TransitionsPersec: 3227
+C3TransitionsPersec: 0
+Caption: 
+Description: 
+DPCRate: 1
+DPCsQueuedPersec: 159
+Frequency_Object: 
+Frequency_PerfTime: 
+Frequency_Sys100NS: 
+InterruptsPersec: 3378
+Name: _Total
+PercentC1Time: 1
+PercentC2Time: 94
+PercentC3Time: 0
+PercentDPCTime: 0
+PercentIdleTime: 95
+PercentInterruptTime: 0
+PercentPrivilegedTime: 1
+PercentProcessorTime: 1
+PercentUserTime: 0
+Timestamp_Object: 
+Timestamp_PerfTime: 
+Timestamp_Sys100NS: 
+C1TransitionsPersec: 0
+C2TransitionsPersec: 745
+C3TransitionsPersec: 0
+Caption: 
+Description: 
+DPCRate: 0
+DPCsQueuedPersec: 15
+Frequency_Object: 
+Frequency_PerfTime: 
+Frequency_Sys100NS: 
+InterruptsPersec: 757
+Name: 0
+PercentC1Time: 0
+PercentC2Time: 95
+PercentC3Time: 0
+PercentDPCTime: 0
+PercentIdleTime: 95
+PercentInterruptTime: 0
+PercentPrivilegedTime: 0
+PercentProcessorTime: 0
+PercentUserTime: 0
+Timestamp_Object: 
+Timestamp_PerfTime: 
+Timestamp_Sys100NS: 
+C1TransitionsPersec: 51
+C2TransitionsPersec: 410
+C3TransitionsPersec: 0
+Caption: 
+Description: 
+DPCRate: 0
+DPCsQueuedPersec: 11
+Frequency_Object: 
+Frequency_PerfTime: 
+Frequency_Sys100NS: 
+InterruptsPersec: 494
+Name: 1
+PercentC1Time: 5
+PercentC2Time: 93
+PercentC3Time: 0
+PercentDPCTime: 0
+PercentIdleTime: 98
+PercentInterruptTime: 0
+PercentPrivilegedTime: 0
+PercentProcessorTime: 0
+PercentUserTime: 0
+Timestamp_Object: 
+Timestamp_PerfTime: 
+Timestamp_Sys100NS: 
+C1TransitionsPersec: 0
+C2TransitionsPersec: 1719
+C3TransitionsPersec: 0
+Caption: 
+Description: 
+DPCRate: 1
+DPCsQueuedPersec: 95
+Frequency_Object: 
+Frequency_PerfTime: 
+Frequency_Sys100NS: 
+InterruptsPersec: 1735
+Name: 2
+PercentC1Time: 0
+PercentC2Time: 92
+PercentC3Time: 0
+PercentDPCTime: 0
+PercentIdleTime: 92
+PercentInterruptTime: 0
+PercentPrivilegedTime: 0
+PercentProcessorTime: 0
+PercentUserTime: 0
+Timestamp_Object: 
+Timestamp_PerfTime: 
+Timestamp_Sys100NS: 
+C1TransitionsPersec: 0
+C2TransitionsPersec: 351
+C3TransitionsPersec: 0
+Caption: 
+Description: 
+DPCRate: 0
+DPCsQueuedPersec: 35
+Frequency_Object: 
+Frequency_PerfTime: 
+Frequency_Sys100NS: 
+InterruptsPersec: 390
+Name: 3
+PercentC1Time: 0
+PercentC2Time: 96
+PercentC3Time: 0
+PercentDPCTime: 0
+PercentIdleTime: 96
+PercentInterruptTime: 0
+PercentPrivilegedTime: 6
+PercentProcessorTime: 6
+PercentUserTime: 0
+Timestamp_Object: 
+Timestamp_PerfTime: 
+Timestamp_Sys100NS: 
+: 
+
+
+
+
+
+
+************Win32_Share: Win32_Share************
+AccessMask: 
+AllowMaximum: True
+Caption: Remote Admin
+Description: Remote Admin
+InstallDate: 
+MaximumAllowed: 
+Name: ADMIN$
+Path: C:\Windows
+Status: OK
+Type: 2147483648
+AccessMask: 
+AllowMaximum: True
+Caption: Default share
+Description: Default share
+InstallDate: 
+MaximumAllowed: 
+Name: C$
+Path: C:\
+Status: OK
+Type: 2147483648
+AccessMask: 
+AllowMaximum: True
+Caption: Default share
+Description: Default share
+InstallDate: 
+MaximumAllowed: 
+Name: E$
+Path: E:\
+Status: OK
+Type: 2147483648
+AccessMask: 
+AllowMaximum: True
+Caption: Default share
+Description: Default share
+InstallDate: 
+MaximumAllowed: 
+Name: F$
+Path: F:\
+Status: OK
+Type: 2147483648
+AccessMask: 
+AllowMaximum: True
+Caption: Remote IPC
+Description: Remote IPC
+InstallDate: 
+MaximumAllowed: 
+Name: IPC$
+Path: 
+Status: OK
+Type: 2147483651
+AccessMask: 
+AllowMaximum: True
+Caption: Users
+Description: 
+InstallDate: 
+MaximumAllowed: 
+Name: Users
+Path: C:\Users
+Status: OK
+Type: 0
+: 
+
+
+
+
+
+
+************Win32_Volume: Win32_Volume************
+Access: 
+Automount: True
+Availability: 
+BlockSize: 4096
+BootVolume: True
+Capacity: 268440694784
+Caption: C:\
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: 
+Description: 
+DeviceID: \\?\Volume{5d0e9e4b-0000-0000-0000-100000000000}\
+DirtyBitSet: False
+DriveLetter: C:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 152012013568
+IndexingEnabled: True
+InstallDate: 
+Label: OS-W10
+LastErrorCode: 
+MaximumFileNameLength: 255
+Name: C:\
+NumberOfBlocks: 
+PageFilePresent: True
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+Purpose: 
+QuotasEnabled: False
+QuotasIncomplete: False
+QuotasRebuilding: False
+SerialNumber: 2662010975
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: 
+SystemName: DEVSTATION
+SystemVolume: True
+Access: 
+Automount: True
+Availability: 
+BlockSize: 4096
+BootVolume: False
+Capacity: 536866713600
+Caption: E:\
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: 
+Description: 
+DeviceID: \\?\Volume{5d0e9e4b-0000-0000-0000-70803e000000}\
+DirtyBitSet: False
+DriveLetter: E:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 290466029568
+IndexingEnabled: True
+InstallDate: 
+Label: Big Data Zone
+LastErrorCode: 
+MaximumFileNameLength: 255
+Name: E:\
+NumberOfBlocks: 
+PageFilePresent: False
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+Purpose: 
+QuotasEnabled: False
+QuotasIncomplete: False
+QuotasRebuilding: False
+SerialNumber: 1191515872
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: 
+SystemName: DEVSTATION
+SystemVolume: False
+Access: 
+Automount: True
+Availability: 
+BlockSize: 4096
+BootVolume: False
+Capacity: 194891476992
+Caption: F:\
+Compressed: False
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: 
+Description: 
+DeviceID: \\?\Volume{5d0e9e4b-0000-0000-0000-4080bb000000}\
+DirtyBitSet: False
+DriveLetter: F:
+DriveType: 3
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: NTFS
+FreeSpace: 64732471296
+IndexingEnabled: True
+InstallDate: 
+Label: Apps Zone
+LastErrorCode: 
+MaximumFileNameLength: 255
+Name: F:\
+NumberOfBlocks: 
+PageFilePresent: False
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+Purpose: 
+QuotasEnabled: False
+QuotasIncomplete: False
+QuotasRebuilding: False
+SerialNumber: 1241435872
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: True
+SupportsFileBasedCompression: True
+SystemCreationClassName: 
+SystemName: DEVSTATION
+SystemVolume: False
+Access: 
+Automount: True
+Availability: 
+BlockSize: 
+BootVolume: 
+Capacity: 
+Caption: D:\
+Compressed: 
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: 
+Description: 
+DeviceID: \\?\Volume{23dfc4f3-14b3-11e6-9bdd-806e6f6e6963}\
+DirtyBitSet: 
+DriveLetter: D:
+DriveType: 5
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+FileSystem: 
+FreeSpace: 
+IndexingEnabled: 
+InstallDate: 
+Label: 
+LastErrorCode: 
+MaximumFileNameLength: 
+Name: D:\
+NumberOfBlocks: 
+PageFilePresent: 
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+Purpose: 
+QuotasEnabled: 
+QuotasIncomplete: 
+QuotasRebuilding: 
+SerialNumber: 
+Status: 
+StatusInfo: 
+SupportsDiskQuotas: 
+SupportsFileBasedCompression: 
+SystemCreationClassName: 
+SystemName: DEVSTATION
+SystemVolume: 
+: 
+
+
+
+
+
+
+************Win32_Process: Win32_Process************
+Caption: System Idle Process
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025001.396742+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: System Idle Process
+ExecutablePath: 
+ExecutionState: 
+Handle: 0
+HandleCount: 0
+InstallDate: 
+KernelModeTime: 4937245937500
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: System Idle Process
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 0
+OtherTransferCount: 0
+PageFaults: 1
+PageFileUsage: 0
+ParentProcessId: 0
+PeakPageFileUsage: 0
+PeakVirtualSize: 65536
+PeakWorkingSetSize: 4
+Priority: 0
+PrivatePageCount: 0
+ProcessId: 0
+QuotaNonPagedPoolUsage: 0
+QuotaPagedPoolUsage: 0
+QuotaPeakNonPagedPoolUsage: 0
+QuotaPeakPagedPoolUsage: 0
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 0
+VirtualSize: 65536
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4096
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: System
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025001.396742+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: System
+ExecutablePath: 
+ExecutionState: 
+Handle: 4
+HandleCount: 1419
+InstallDate: 
+KernelModeTime: 96433437500
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: System
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 395506
+OtherTransferCount: 25484694
+PageFaults: 1314846
+PageFileUsage: 236
+ParentProcessId: 0
+PeakPageFileUsage: 272
+PeakVirtualSize: 78352384
+PeakWorkingSetSize: 64288
+Priority: 8
+PrivatePageCount: 241664
+ProcessId: 4
+QuotaNonPagedPoolUsage: 0
+QuotaPagedPoolUsage: 0
+QuotaPeakNonPagedPoolUsage: 0
+QuotaPeakPagedPoolUsage: 0
+ReadOperationCount: 420
+ReadTransferCount: 468490393
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 204
+UserModeTime: 0
+VirtualSize: 42782720
+WindowsVersion: 10.0.10240
+WorkingSetSize: 22265856
+WriteOperationCount: 51699
+WriteTransferCount: 1413844580
+Caption: smss.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025001.488498+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: smss.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 488
+HandleCount: 49
+InstallDate: 
+KernelModeTime: 1093750
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: smss.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 440
+OtherTransferCount: 12128
+PageFaults: 1121
+PageFileUsage: 360
+ParentProcessId: 4
+PeakPageFileUsage: 432
+PeakVirtualSize: 2199049867264
+PeakWorkingSetSize: 1204
+Priority: 11
+PrivatePageCount: 368640
+ProcessId: 488
+QuotaNonPagedPoolUsage: 3
+QuotaPagedPoolUsage: 13
+QuotaPeakNonPagedPoolUsage: 6
+QuotaPeakPagedPoolUsage: 55
+ReadOperationCount: 4
+ReadTransferCount: 40964
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 2
+UserModeTime: 312500
+VirtualSize: 2199027707904
+WindowsVersion: 10.0.10240
+WorkingSetSize: 557056
+WriteOperationCount: 1
+WriteTransferCount: 32
+Caption: csrss.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025019.836381+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: csrss.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 636
+HandleCount: 661
+InstallDate: 
+KernelModeTime: 130625000
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: csrss.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 157048
+OtherTransferCount: 6386551
+PageFaults: 50935
+PageFileUsage: 1528
+ParentProcessId: 564
+PeakPageFileUsage: 4036
+PeakVirtualSize: 2199083937792
+PeakWorkingSetSize: 5348
+Priority: 13
+PrivatePageCount: 1564672
+ProcessId: 636
+QuotaNonPagedPoolUsage: 21
+QuotaPagedPoolUsage: 190
+QuotaPeakNonPagedPoolUsage: 25
+QuotaPeakPagedPoolUsage: 211
+ReadOperationCount: 1181
+ReadTransferCount: 1372522
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 11
+UserModeTime: 27812500
+VirtualSize: 2199083352064
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2314240
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: wininit.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025021.566052+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: wininit.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 740
+HandleCount: 109
+InstallDate: 
+KernelModeTime: 1250000
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: wininit.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 2180
+OtherTransferCount: 4842
+PageFaults: 5330
+PageFileUsage: 1436
+ParentProcessId: 564
+PeakPageFileUsage: 1824
+PeakVirtualSize: 2199071084544
+PeakWorkingSetSize: 5552
+Priority: 13
+PrivatePageCount: 1470464
+ProcessId: 740
+QuotaNonPagedPoolUsage: 9
+QuotaPagedPoolUsage: 100
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 104
+ReadOperationCount: 1
+ReadTransferCount: 8192
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 468750
+VirtualSize: 2199067762688
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3100672
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: services.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025021.753084+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: services.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 868
+HandleCount: 409
+InstallDate: 
+KernelModeTime: 745156250
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: services.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 70584
+OtherTransferCount: 1519738
+PageFaults: 637169
+PageFileUsage: 4032
+ParentProcessId: 740
+PeakPageFileUsage: 4444
+PeakVirtualSize: 2199061950464
+PeakWorkingSetSize: 7656
+Priority: 9
+PrivatePageCount: 4128768
+ProcessId: 868
+QuotaNonPagedPoolUsage: 13
+QuotaPagedPoolUsage: 126
+QuotaPeakNonPagedPoolUsage: 19
+QuotaPeakPagedPoolUsage: 157
+ReadOperationCount: 13
+ReadTransferCount: 399540
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 13
+UserModeTime: 396875000
+VirtualSize: 2199048757248
+WindowsVersion: 10.0.10240
+WorkingSetSize: 5799936
+WriteOperationCount: 1
+WriteTransferCount: 160
+Caption: lsass.exe
+CommandLine: C:\Windows\system32\lsass.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025021.764889+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: lsass.exe
+ExecutablePath: C:\Windows\system32\lsass.exe
+ExecutionState: 
+Handle: 880
+HandleCount: 1406
+InstallDate: 
+KernelModeTime: 220000000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: lsass.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 93571
+OtherTransferCount: 6451284
+PageFaults: 192537
+PageFileUsage: 7688
+ParentProcessId: 740
+PeakPageFileUsage: 8340
+PeakVirtualSize: 2199122092032
+PeakWorkingSetSize: 18908
+Priority: 9
+PrivatePageCount: 7872512
+ProcessId: 880
+QuotaNonPagedPoolUsage: 29
+QuotaPagedPoolUsage: 219
+QuotaPeakNonPagedPoolUsage: 32
+QuotaPeakPagedPoolUsage: 226
+ReadOperationCount: 10657
+ReadTransferCount: 1277498
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 302500000
+VirtualSize: 2199120064512
+WindowsVersion: 10.0.10240
+WorkingSetSize: 13983744
+WriteOperationCount: 5147
+WriteTransferCount: 7041511
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k DcomLaunch
+CreationClassName: Win32_Process
+CreationDate: 20170921025021.925492+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 976
+HandleCount: 665
+InstallDate: 
+KernelModeTime: 210156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 101920
+OtherTransferCount: 2704120
+PageFaults: 82336
+PageFileUsage: 7604
+ParentProcessId: 868
+PeakPageFileUsage: 28276
+PeakVirtualSize: 2199126761472
+PeakWorkingSetSize: 18564
+Priority: 8
+PrivatePageCount: 7786496
+ProcessId: 976
+QuotaNonPagedPoolUsage: 26
+QuotaPagedPoolUsage: 655
+QuotaPeakNonPagedPoolUsage: 30
+QuotaPeakPagedPoolUsage: 694
+ReadOperationCount: 87
+ReadTransferCount: 490028
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 27
+UserModeTime: 145312500
+VirtualSize: 2199101014016
+WindowsVersion: 10.0.10240
+WorkingSetSize: 13344768
+WriteOperationCount: 1432
+WriteTransferCount: 4647000
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k RPCSS
+CreationClassName: Win32_Process
+CreationDate: 20170921025021.999114+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 336
+HandleCount: 671
+InstallDate: 
+KernelModeTime: 237656250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 12207
+OtherTransferCount: 511810
+PageFaults: 809255
+PageFileUsage: 5780
+ParentProcessId: 868
+PeakPageFileUsage: 17540
+PeakVirtualSize: 2199187959808
+PeakWorkingSetSize: 19024
+Priority: 8
+PrivatePageCount: 5918720
+ProcessId: 336
+QuotaNonPagedPoolUsage: 22
+QuotaPagedPoolUsage: 114
+QuotaPeakNonPagedPoolUsage: 74
+QuotaPeakPagedPoolUsage: 202
+ReadOperationCount: 73
+ReadTransferCount: 1436532
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 13
+UserModeTime: 433437500
+VirtualSize: 2199080103936
+WindowsVersion: 10.0.10240
+WorkingSetSize: 8736768
+WriteOperationCount: 34
+WriteTransferCount: 12750
+Caption: svchost.exe
+CommandLine: C:\Windows\System32\svchost.exe -k NetworkService
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.074397+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\System32\svchost.exe
+ExecutionState: 
+Handle: 940
+HandleCount: 1351
+InstallDate: 
+KernelModeTime: 1743437500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 929194
+OtherTransferCount: 47751391
+PageFaults: 855423
+PageFileUsage: 20172
+ParentProcessId: 868
+PeakPageFileUsage: 178352
+PeakVirtualSize: 2200647180288
+PeakWorkingSetSize: 128024
+Priority: 8
+PrivatePageCount: 20656128
+ProcessId: 940
+QuotaNonPagedPoolUsage: 81
+QuotaPagedPoolUsage: 296
+QuotaPeakNonPagedPoolUsage: 231
+QuotaPeakPagedPoolUsage: 409
+ReadOperationCount: 98427
+ReadTransferCount: 30350847
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 69
+UserModeTime: 3434531250
+VirtualSize: 2200514805760
+WindowsVersion: 10.0.10240
+WorkingSetSize: 26308608
+WriteOperationCount: 1364749
+WriteTransferCount: 2169824930
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.075619+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 1032
+HandleCount: 1081
+InstallDate: 
+KernelModeTime: 7103281250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1090384
+OtherTransferCount: 1364847220
+PageFaults: 3355405
+PageFileUsage: 118008
+ParentProcessId: 868
+PeakPageFileUsage: 236216
+PeakVirtualSize: 2204331905024
+PeakWorkingSetSize: 222768
+Priority: 8
+PrivatePageCount: 120840192
+ProcessId: 1032
+QuotaNonPagedPoolUsage: 53
+QuotaPagedPoolUsage: 270
+QuotaPeakNonPagedPoolUsage: 71
+QuotaPeakPagedPoolUsage: 458
+ReadOperationCount: 1526
+ReadTransferCount: 99545359
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 33
+UserModeTime: 7888281250
+VirtualSize: 2204228988928
+WindowsVersion: 10.0.10240
+WorkingSetSize: 128999424
+WriteOperationCount: 119953
+WriteTransferCount: 168096558
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k LocalService
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.087356+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 1076
+HandleCount: 1181
+InstallDate: 
+KernelModeTime: 128437500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 205600
+OtherTransferCount: 13777241
+PageFaults: 241215
+PageFileUsage: 12024
+ParentProcessId: 868
+PeakPageFileUsage: 15616
+PeakVirtualSize: 2199221760000
+PeakWorkingSetSize: 29032
+Priority: 8
+PrivatePageCount: 12312576
+ProcessId: 1076
+QuotaNonPagedPoolUsage: 48
+QuotaPagedPoolUsage: 278
+QuotaPeakNonPagedPoolUsage: 64
+QuotaPeakPagedPoolUsage: 382
+ReadOperationCount: 66
+ReadTransferCount: 3946
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 43
+UserModeTime: 134062500
+VirtualSize: 2199168237568
+WindowsVersion: 10.0.10240
+WorkingSetSize: 18944000
+WriteOperationCount: 24
+WriteTransferCount: 3536
+Caption: svchost.exe
+CommandLine: C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.087393+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\System32\svchost.exe
+ExecutionState: 
+Handle: 1084
+HandleCount: 1071
+InstallDate: 
+KernelModeTime: 313281250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 320969
+OtherTransferCount: 34491548
+PageFaults: 336128
+PageFileUsage: 21108
+ParentProcessId: 868
+PeakPageFileUsage: 22224
+PeakVirtualSize: 2199198613504
+PeakWorkingSetSize: 35488
+Priority: 8
+PrivatePageCount: 21614592
+ProcessId: 1084
+QuotaNonPagedPoolUsage: 48
+QuotaPagedPoolUsage: 266
+QuotaPeakNonPagedPoolUsage: 150
+QuotaPeakPagedPoolUsage: 285
+ReadOperationCount: 14452
+ReadTransferCount: 713268019
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 38
+UserModeTime: 778750000
+VirtualSize: 2199191592960
+WindowsVersion: 10.0.10240
+WorkingSetSize: 28381184
+WriteOperationCount: 45975
+WriteTransferCount: 1807812651
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k netsvcs
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.088177+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 1092
+HandleCount: 2389
+InstallDate: 
+KernelModeTime: 1046562500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 560147
+OtherTransferCount: 145394540
+PageFaults: 2437461
+PageFileUsage: 25708
+ParentProcessId: 868
+PeakPageFileUsage: 30112
+PeakVirtualSize: 2199327784960
+PeakWorkingSetSize: 49932
+Priority: 8
+PrivatePageCount: 26324992
+ProcessId: 1092
+QuotaNonPagedPoolUsage: 93
+QuotaPagedPoolUsage: 811
+QuotaPeakNonPagedPoolUsage: 241
+QuotaPeakPagedPoolUsage: 848
+ReadOperationCount: 66782
+ReadTransferCount: 282281619
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 87
+UserModeTime: 1063125000
+VirtualSize: 2199289167872
+WindowsVersion: 10.0.10240
+WorkingSetSize: 44855296
+WriteOperationCount: 6961
+WriteTransferCount: 276609631
+Caption: WUDFHost.exe
+CommandLine: "C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:HostProcess-5fef50c1-c2b1-409b-8d5a-3862e228ccc2 -SystemEventPortName:HostProcess-e91f7518-5dcf-4688-84c3-42f2b48dba8f -IoCancelEventPortName:HostProcess-ed6cef4e-1dca-4845-a148-2e37ca299124 -NonStateChangingEventPortName:HostProcess-ab55b0be-38be-4f23-a8f5-be902f96056f -ServiceSID:S-1-5-80-2652678385-582572993-1835434367-1344795993-749280709 -LifetimeId:57a08b40-188c-4846-9d63-323fe4ab3533 -DeviceGroupId:
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.136972+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WUDFHost.exe
+ExecutablePath: C:\Windows\System32\WUDFHost.exe
+ExecutionState: 
+Handle: 1300
+HandleCount: 390
+InstallDate: 
+KernelModeTime: 21562500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WUDFHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 19830
+OtherTransferCount: 2637023
+PageFaults: 15001
+PageFileUsage: 25276
+ParentProcessId: 1032
+PeakPageFileUsage: 25284
+PeakVirtualSize: 2199134416896
+PeakWorkingSetSize: 35976
+Priority: 13
+PrivatePageCount: 25882624
+ProcessId: 1300
+QuotaNonPagedPoolUsage: 20
+QuotaPagedPoolUsage: 165
+QuotaPeakNonPagedPoolUsage: 24
+QuotaPeakPagedPoolUsage: 165
+ReadOperationCount: 398
+ReadTransferCount: 1872267
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 19
+UserModeTime: 34375000
+VirtualSize: 2199134384128
+WindowsVersion: 10.0.10240
+WorkingSetSize: 7553024
+WriteOperationCount: 4
+WriteTransferCount: 256256
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.145871+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 1336
+HandleCount: 612
+InstallDate: 
+KernelModeTime: 804062500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 696198
+OtherTransferCount: 170582384
+PageFaults: 885553
+PageFileUsage: 7636
+ParentProcessId: 868
+PeakPageFileUsage: 8232
+PeakVirtualSize: 2199128317952
+PeakWorkingSetSize: 19124
+Priority: 8
+PrivatePageCount: 7819264
+ProcessId: 1336
+QuotaNonPagedPoolUsage: 37
+QuotaPagedPoolUsage: 166
+QuotaPeakNonPagedPoolUsage: 93
+QuotaPeakPagedPoolUsage: 168
+ReadOperationCount: 4025
+ReadTransferCount: 8733244
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 39
+UserModeTime: 602656250
+VirtualSize: 2199121944576
+WindowsVersion: 10.0.10240
+WorkingSetSize: 13701120
+WriteOperationCount: 2
+WriteTransferCount: 68768
+Caption: nvvsvc.exe
+CommandLine: "C:\Windows\system32\nvvsvc.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.186333+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: nvvsvc.exe
+ExecutablePath: C:\Windows\system32\nvvsvc.exe
+ExecutionState: 
+Handle: 1428
+HandleCount: 192
+InstallDate: 
+KernelModeTime: 3750000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: nvvsvc.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 499
+OtherTransferCount: 14692
+PageFaults: 8808
+PageFileUsage: 2740
+ParentProcessId: 868
+PeakPageFileUsage: 2912
+PeakVirtualSize: 77524992
+PeakWorkingSetSize: 9224
+Priority: 8
+PrivatePageCount: 2805760
+ProcessId: 1428
+QuotaNonPagedPoolUsage: 11
+QuotaPagedPoolUsage: 136
+QuotaPeakNonPagedPoolUsage: 13
+QuotaPeakPagedPoolUsage: 136
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 15312500
+VirtualSize: 73285632
+WindowsVersion: 10.0.10240
+WorkingSetSize: 5861376
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.360465+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 1800
+HandleCount: 753
+InstallDate: 
+KernelModeTime: 1423593750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 129064
+OtherTransferCount: 15706858
+PageFaults: 4214789
+PageFileUsage: 19564
+ParentProcessId: 868
+PeakPageFileUsage: 153480
+PeakVirtualSize: 2200330547200
+PeakWorkingSetSize: 133104
+Priority: 8
+PrivatePageCount: 20033536
+ProcessId: 1800
+QuotaNonPagedPoolUsage: 68
+QuotaPagedPoolUsage: 233
+QuotaPeakNonPagedPoolUsage: 109
+QuotaPeakPagedPoolUsage: 303
+ReadOperationCount: 39406
+ReadTransferCount: 1150092190
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 35
+UserModeTime: 1390625000
+VirtualSize: 2200319832064
+WindowsVersion: 10.0.10240
+WorkingSetSize: 22323200
+WriteOperationCount: 25695
+WriteTransferCount: 197540856
+Caption: AsLdrSrv.exe
+CommandLine: "C:\Program Files (x86)\ASUS\ATK Package\ATK Hotkey\AsLdrSrv.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.397633+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: AsLdrSrv.exe
+ExecutablePath: C:\Program Files (x86)\ASUS\ATK Package\ATK Hotkey\AsLdrSrv.exe
+ExecutionState: 
+Handle: 1864
+HandleCount: 84
+InstallDate: 
+KernelModeTime: 781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: AsLdrSrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 393
+OtherTransferCount: 6176
+PageFaults: 3011
+PageFileUsage: 1272
+ParentProcessId: 868
+PeakPageFileUsage: 1368
+PeakVirtualSize: 31698944
+PeakWorkingSetSize: 4980
+Priority: 8
+PrivatePageCount: 1302528
+ProcessId: 1864
+QuotaNonPagedPoolUsage: 9
+QuotaPagedPoolUsage: 51
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 51
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 312500
+VirtualSize: 29052928
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2314240
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: GFNEXSrv.exe
+CommandLine: "C:\Program Files (x86)\ASUS\ATK Package\ATKGFNEX\GFNEXSrv.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.398201+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: GFNEXSrv.exe
+ExecutablePath: C:\Program Files (x86)\ASUS\ATK Package\ATKGFNEX\GFNEXSrv.exe
+ExecutionState: 
+Handle: 1872
+HandleCount: 55
+InstallDate: 
+KernelModeTime: 0
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: GFNEXSrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 11
+OtherTransferCount: 978
+PageFaults: 1757
+PageFileUsage: 764
+ParentProcessId: 868
+PeakPageFileUsage: 952
+PeakVirtualSize: 19243008
+PeakWorkingSetSize: 3348
+Priority: 8
+PrivatePageCount: 782336
+ProcessId: 1872
+QuotaNonPagedPoolUsage: 6
+QuotaPagedPoolUsage: 29
+QuotaPeakNonPagedPoolUsage: 8
+QuotaPeakPagedPoolUsage: 29
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 156250
+VirtualSize: 15273984
+WindowsVersion: 10.0.10240
+WorkingSetSize: 1302528
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: spoolsv.exe
+CommandLine: C:\Windows\System32\spoolsv.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.484413+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: spoolsv.exe
+ExecutablePath: C:\Windows\System32\spoolsv.exe
+ExecutionState: 
+Handle: 2000
+HandleCount: 485
+InstallDate: 
+KernelModeTime: 79062500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: spoolsv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 19519
+OtherTransferCount: 1373975
+PageFaults: 67471
+PageFileUsage: 8776
+ParentProcessId: 868
+PeakPageFileUsage: 10412
+PeakVirtualSize: 2199137394688
+PeakWorkingSetSize: 16632
+Priority: 8
+PrivatePageCount: 8986624
+ProcessId: 2000
+QuotaNonPagedPoolUsage: 28
+QuotaPagedPoolUsage: 164
+QuotaPeakNonPagedPoolUsage: 34
+QuotaPeakPagedPoolUsage: 229
+ReadOperationCount: 1340
+ReadTransferCount: 1572389
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 16
+UserModeTime: 20625000
+VirtualSize: 2199104200704
+WindowsVersion: 10.0.10240
+WorkingSetSize: 14024704
+WriteOperationCount: 730
+WriteTransferCount: 459266
+Caption: WUDFHost.exe
+CommandLine: "C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:HostProcess-2ce7bd97-77ca-450c-8c43-be6596228c60 -SystemEventPortName:HostProcess-9d85f5d0-1b48-4faf-9bf3-e7f36233a5f7 -IoCancelEventPortName:HostProcess-92c997fe-2d60-4a60-8e8f-066167826944 -NonStateChangingEventPortName:HostProcess-ec2aac50-04d4-42fa-a513-703510e79fce -ServiceSID:S-1-5-80-2652678385-582572993-1835434367-1344795993-749280709 -LifetimeId:807781db-d6c1-402c-9e8f-3ba97f8c943c -DeviceGroupId:WudfDefaultDevicePool
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.654996+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WUDFHost.exe
+ExecutablePath: C:\Windows\System32\WUDFHost.exe
+ExecutionState: 
+Handle: 2072
+HandleCount: 241
+InstallDate: 
+KernelModeTime: 156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WUDFHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 193
+OtherTransferCount: 1048
+PageFaults: 3184
+PageFileUsage: 1600
+ParentProcessId: 1032
+PeakPageFileUsage: 1716
+PeakVirtualSize: 2199068250112
+PeakWorkingSetSize: 7720
+Priority: 8
+PrivatePageCount: 1638400
+ProcessId: 2072
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 75
+QuotaPeakNonPagedPoolUsage: 13
+QuotaPeakPagedPoolUsage: 75
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 625000
+VirtualSize: 2199066116096
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2351104
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WUDFHost.exe
+CommandLine: "C:\Windows\System32\WUDFHost.exe" -HostGUID:{193a1820-d9ac-4997-8c55-be817523f6aa} -IoEventPortName:HostProcess-731ab311-2894-4281-a942-ec2c8d846d31 -SystemEventPortName:HostProcess-cc3729b7-9246-4f4b-8d1f-6031e5c52fbe -IoCancelEventPortName:HostProcess-c8be7054-5a3e-43a9-bc05-b8121020562a -NonStateChangingEventPortName:HostProcess-b005ba68-87cb-4d15-87cf-45946261e0ed -ServiceSID:S-1-5-80-2652678385-582572993-1835434367-1344795993-749280709 -LifetimeId:6e67dd6c-aee4-4c66-ac44-c5306190c6df -DeviceGroupId:
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.835236+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WUDFHost.exe
+ExecutablePath: C:\Windows\System32\WUDFHost.exe
+ExecutionState: 
+Handle: 2144
+HandleCount: 346
+InstallDate: 
+KernelModeTime: 3750000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WUDFHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 2192
+OtherTransferCount: 949258
+PageFaults: 6636
+PageFileUsage: 3272
+ParentProcessId: 1032
+PeakPageFileUsage: 3312
+PeakVirtualSize: 2199114264576
+PeakWorkingSetSize: 12432
+Priority: 8
+PrivatePageCount: 3350528
+ProcessId: 2144
+QuotaNonPagedPoolUsage: 17
+QuotaPagedPoolUsage: 159
+QuotaPeakNonPagedPoolUsage: 23
+QuotaPeakPagedPoolUsage: 163
+ReadOperationCount: 3
+ReadTransferCount: 1140
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 15
+UserModeTime: 1875000
+VirtualSize: 2199109038080
+WindowsVersion: 10.0.10240
+WorkingSetSize: 5550080
+WriteOperationCount: 196
+WriteTransferCount: 200704
+Caption: dasHost.exe
+CommandLine: dashost.exe {ce80829d-a863-4f03-815d74ff3441cf32}
+CreationClassName: Win32_Process
+CreationDate: 20170921025022.861554+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: dasHost.exe
+ExecutablePath: C:\Windows\system32\dashost.exe
+ExecutionState: 
+Handle: 2180
+HandleCount: 439
+InstallDate: 
+KernelModeTime: 27187500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: dasHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 40240
+OtherTransferCount: 3695339
+PageFaults: 26482
+PageFileUsage: 9860
+ParentProcessId: 1032
+PeakPageFileUsage: 10236
+PeakVirtualSize: 2199107796992
+PeakWorkingSetSize: 17196
+Priority: 8
+PrivatePageCount: 10096640
+ProcessId: 2180
+QuotaNonPagedPoolUsage: 25
+QuotaPagedPoolUsage: 134
+QuotaPeakNonPagedPoolUsage: 45
+QuotaPeakPagedPoolUsage: 136
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 24
+UserModeTime: 27500000
+VirtualSize: 2199103451136
+WindowsVersion: 10.0.10240
+WorkingSetSize: 15753216
+WriteOperationCount: 731
+WriteTransferCount: 3385590
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k apphost
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.642184+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 2528
+HandleCount: 126
+InstallDate: 
+KernelModeTime: 937500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 297
+OtherTransferCount: 7584
+PageFaults: 4502
+PageFileUsage: 3188
+ParentProcessId: 868
+PeakPageFileUsage: 3440
+PeakVirtualSize: 2199070887936
+PeakWorkingSetSize: 9348
+Priority: 8
+PrivatePageCount: 3264512
+ProcessId: 2528
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 71
+QuotaPeakNonPagedPoolUsage: 13
+QuotaPeakPagedPoolUsage: 72
+ReadOperationCount: 158
+ReadTransferCount: 611336
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 1406250
+VirtualSize: 2199067693056
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4091904
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k ftpsvc
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.642292+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 2536
+HandleCount: 285
+InstallDate: 
+KernelModeTime: 781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 271
+OtherTransferCount: 4084
+PageFaults: 4248
+PageFileUsage: 4024
+ParentProcessId: 868
+PeakPageFileUsage: 4168
+PeakVirtualSize: 2199077507072
+PeakWorkingSetSize: 10424
+Priority: 8
+PrivatePageCount: 4120576
+ProcessId: 2536
+QuotaNonPagedPoolUsage: 15
+QuotaPagedPoolUsage: 84
+QuotaPeakNonPagedPoolUsage: 16
+QuotaPeakPagedPoolUsage: 84
+ReadOperationCount: 100
+ReadTransferCount: 378207
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 13
+UserModeTime: 937500
+VirtualSize: 2199074852864
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4517888
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: inetinfo.exe
+CommandLine: C:\Windows\system32\inetsrv\inetinfo.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.642601+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: inetinfo.exe
+ExecutablePath: C:\Windows\system32\inetsrv\inetinfo.exe
+ExecutionState: 
+Handle: 2544
+HandleCount: 159
+InstallDate: 
+KernelModeTime: 1562500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: inetinfo.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 622
+OtherTransferCount: 13414
+PageFaults: 6825
+PageFileUsage: 8444
+ParentProcessId: 868
+PeakPageFileUsage: 8556
+PeakVirtualSize: 2199088066560
+PeakWorkingSetSize: 16628
+Priority: 8
+PrivatePageCount: 8646656
+ProcessId: 2544
+QuotaNonPagedPoolUsage: 16
+QuotaPagedPoolUsage: 92
+QuotaPeakNonPagedPoolUsage: 18
+QuotaPeakPagedPoolUsage: 92
+ReadOperationCount: 14
+ReadTransferCount: 574556
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 937500
+VirtualSize: 2199085404160
+WindowsVersion: 10.0.10240
+WorkingSetSize: 8609792
+WriteOperationCount: 10
+WriteTransferCount: 564268
+Caption: svchost.exe
+CommandLine: C:\Windows\System32\svchost.exe -k utcsvc
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.642659+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\System32\svchost.exe
+ExecutionState: 
+Handle: 2552
+HandleCount: 477
+InstallDate: 
+KernelModeTime: 75156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 43294
+OtherTransferCount: 4528473
+PageFaults: 226332
+PageFileUsage: 8536
+ParentProcessId: 868
+PeakPageFileUsage: 9608
+PeakVirtualSize: 2199232720896
+PeakWorkingSetSize: 44784
+Priority: 8
+PrivatePageCount: 8740864
+ProcessId: 2552
+QuotaNonPagedPoolUsage: 24
+QuotaPagedPoolUsage: 284
+QuotaPeakNonPagedPoolUsage: 84
+QuotaPeakPagedPoolUsage: 394
+ReadOperationCount: 2873
+ReadTransferCount: 50403938
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 15
+UserModeTime: 115000000
+VirtualSize: 2199176351744
+WindowsVersion: 10.0.10240
+WorkingSetSize: 16244736
+WriteOperationCount: 1739
+WriteTransferCount: 4869886
+Caption: GfExperienceService.exe
+CommandLine: "C:\Program Files\NVIDIA Corporation\GeForce Experience Service\GfExperienceService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.706078+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: GfExperienceService.exe
+ExecutablePath: C:\Program Files\NVIDIA Corporation\GeForce Experience Service\GfExperienceService.exe
+ExecutionState: 
+Handle: 2688
+HandleCount: 231
+InstallDate: 
+KernelModeTime: 625000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: GfExperienceService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 319
+OtherTransferCount: 4664
+PageFaults: 6148
+PageFileUsage: 3704
+ParentProcessId: 868
+PeakPageFileUsage: 4192
+PeakVirtualSize: 105279488
+PeakWorkingSetSize: 13900
+Priority: 8
+PrivatePageCount: 3792896
+ProcessId: 2688
+QuotaNonPagedPoolUsage: 15
+QuotaPagedPoolUsage: 167
+QuotaPeakNonPagedPoolUsage: 19
+QuotaPeakPagedPoolUsage: 171
+ReadOperationCount: 4
+ReadTransferCount: 514
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 468750
+VirtualSize: 98938880
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3801088
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: esif_uf.exe
+CommandLine: C:\Windows\SysWOW64\esif_uf.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.745120+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: esif_uf.exe
+ExecutablePath: C:\Windows\SysWOW64\esif_uf.exe
+ExecutionState: 
+Handle: 2700
+HandleCount: 123
+InstallDate: 
+KernelModeTime: 20468750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: esif_uf.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 49595
+OtherTransferCount: 1000408
+PageFaults: 4640
+PageFileUsage: 2508
+ParentProcessId: 868
+PeakPageFileUsage: 2604
+PeakVirtualSize: 67788800
+PeakWorkingSetSize: 6536
+Priority: 13
+PrivatePageCount: 2568192
+ProcessId: 2700
+QuotaNonPagedPoolUsage: 9
+QuotaPagedPoolUsage: 116
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 118
+ReadOperationCount: 26
+ReadTransferCount: 26624
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 11093750
+VirtualSize: 62840832
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3616768
+WriteOperationCount: 78
+WriteTransferCount: 10028928
+Caption: armsvc.exe
+CommandLine: "C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.873150+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: armsvc.exe
+ExecutablePath: C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe
+ExecutionState: 
+Handle: 2736
+HandleCount: 110
+InstallDate: 
+KernelModeTime: 0
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: armsvc.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 29
+OtherTransferCount: 518
+PageFaults: 2773
+PageFileUsage: 1272
+ParentProcessId: 868
+PeakPageFileUsage: 1472
+PeakVirtualSize: 59326464
+PeakWorkingSetSize: 5716
+Priority: 8
+PrivatePageCount: 1302528
+ProcessId: 2736
+QuotaNonPagedPoolUsage: 9
+QuotaPagedPoolUsage: 107
+QuotaPeakNonPagedPoolUsage: 10
+QuotaPeakPagedPoolUsage: 107
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 0
+VirtualSize: 55357440
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2084864
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: KMS-R@1n.exe
+CommandLine: C:\Windows\KMS-R@1n.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025024.954028+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: KMS-R@1n.exe
+ExecutablePath: C:\Windows\KMS-R@1n.exe
+ExecutionState: 
+Handle: 2820
+HandleCount: 68
+InstallDate: 
+KernelModeTime: 7812500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: KMS-R@1n.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 19923
+OtherTransferCount: 745632
+PageFaults: 3095
+PageFileUsage: 868
+ParentProcessId: 868
+PeakPageFileUsage: 932
+PeakVirtualSize: 22335488
+PeakWorkingSetSize: 4004
+Priority: 8
+PrivatePageCount: 888832
+ProcessId: 2820
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 29
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 30
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 8593750
+VirtualSize: 18059264
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2351104
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: AsHookDevice.exe
+CommandLine: C:\Windows\SysWOW64\AsHookDevice.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025025.215258+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: AsHookDevice.exe
+ExecutablePath: C:\Windows\SysWOW64\AsHookDevice.exe
+ExecutionState: 
+Handle: 2876
+HandleCount: 144
+InstallDate: 
+KernelModeTime: 1605468750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: AsHookDevice.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 799663
+OtherTransferCount: 1000
+PageFaults: 519165
+PageFileUsage: 1680
+ParentProcessId: 868
+PeakPageFileUsage: 1952
+PeakVirtualSize: 73752576
+PeakWorkingSetSize: 7028
+Priority: 8
+PrivatePageCount: 1720320
+ProcessId: 2876
+QuotaNonPagedPoolUsage: 11
+QuotaPagedPoolUsage: 122
+QuotaPeakNonPagedPoolUsage: 14
+QuotaPeakPagedPoolUsage: 123
+ReadOperationCount: 399567
+ReadTransferCount: 9991269
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 493281250
+VirtualSize: 64761856
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3022848
+WriteOperationCount: 1
+WriteTransferCount: 1
+Caption: msdtc.exe
+CommandLine: C:\Windows\System32\msdtc.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025025.303900+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: msdtc.exe
+ExecutablePath: C:\Windows\System32\msdtc.exe
+ExecutionState: 
+Handle: 2900
+HandleCount: 173
+InstallDate: 
+KernelModeTime: 2968750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: msdtc.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 177
+OtherTransferCount: 524
+PageFaults: 4973
+PageFileUsage: 2464
+ParentProcessId: 868
+PeakPageFileUsage: 3776
+PeakVirtualSize: 2199071236096
+PeakWorkingSetSize: 10364
+Priority: 8
+PrivatePageCount: 2523136
+ProcessId: 2900
+QuotaNonPagedPoolUsage: 13
+QuotaPagedPoolUsage: 79
+QuotaPeakNonPagedPoolUsage: 15
+QuotaPeakPagedPoolUsage: 79
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 0
+VirtualSize: 2199068573696
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2707456
+WriteOperationCount: 11
+WriteTransferCount: 7393280
+Caption: PandoraService.exe
+CommandLine: "C:\Program Files (x86)\PANDORA.TV\PanService\PandoraService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025026.065403+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: PandoraService.exe
+ExecutablePath: C:\Program Files (x86)\PANDORA.TV\PanService\PandoraService.exe
+ExecutionState: 
+Handle: 2080
+HandleCount: 267
+InstallDate: 
+KernelModeTime: 1660625000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: PandoraService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 805037
+OtherTransferCount: 10956336
+PageFaults: 18070398
+PageFileUsage: 6496
+ParentProcessId: 868
+PeakPageFileUsage: 6816
+PeakVirtualSize: 93114368
+PeakWorkingSetSize: 14436
+Priority: 8
+PrivatePageCount: 6651904
+ProcessId: 2080
+QuotaNonPagedPoolUsage: 20
+QuotaPagedPoolUsage: 153
+QuotaPeakNonPagedPoolUsage: 23
+QuotaPeakPagedPoolUsage: 154
+ReadOperationCount: 68493022
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 11
+UserModeTime: 246406250
+VirtualSize: 85176320
+WindowsVersion: 10.0.10240
+WorkingSetSize: 6144000
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: NvNetworkService.exe
+CommandLine: "C:\Program Files (x86)\NVIDIA Corporation\NetService\NvNetworkService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025026.112712+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: NvNetworkService.exe
+ExecutablePath: C:\Program Files (x86)\NVIDIA Corporation\NetService\NvNetworkService.exe
+ExecutionState: 
+Handle: 2248
+HandleCount: 273
+InstallDate: 
+KernelModeTime: 781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: NvNetworkService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1491
+OtherTransferCount: 81417
+PageFaults: 11584
+PageFileUsage: 3904
+ParentProcessId: 868
+PeakPageFileUsage: 6444
+PeakVirtualSize: 80470016
+PeakWorkingSetSize: 12528
+Priority: 8
+PrivatePageCount: 3997696
+ProcessId: 2248
+QuotaNonPagedPoolUsage: 16
+QuotaPagedPoolUsage: 137
+QuotaPeakNonPagedPoolUsage: 23
+QuotaPeakPagedPoolUsage: 144
+ReadOperationCount: 11
+ReadTransferCount: 23225
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 2031250
+VirtualSize: 68960256
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3690496
+WriteOperationCount: 9
+WriteTransferCount: 37387
+Caption: msmdsrv.exe
+CommandLine: "C:\Program Files\Microsoft SQL Server\MSAS12.MSSQLSERVER2014\OLAP\bin\msmdsrv.exe" -s "C:\Program Files\Microsoft SQL Server\MSAS12.MSSQLSERVER2014\OLAP\Config"
+CreationClassName: Win32_Process
+CreationDate: 20170921025026.472047+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: msmdsrv.exe
+ExecutablePath: C:\Program Files\Microsoft SQL Server\MSAS12.MSSQLSERVER2014\OLAP\bin\msmdsrv.exe
+ExecutionState: 
+Handle: 3092
+HandleCount: 1691
+InstallDate: 
+KernelModeTime: 59375000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: msmdsrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 55159
+OtherTransferCount: 16406
+PageFaults: 79224
+PageFileUsage: 55328
+ParentProcessId: 868
+PeakPageFileUsage: 55492
+PeakVirtualSize: 703860736
+PeakWorkingSetSize: 35728
+Priority: 8
+PrivatePageCount: 56655872
+ProcessId: 3092
+QuotaNonPagedPoolUsage: 49
+QuotaPagedPoolUsage: 446
+QuotaPeakNonPagedPoolUsage: 51
+QuotaPeakPagedPoolUsage: 451
+ReadOperationCount: 26962
+ReadTransferCount: 31367273
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 19
+UserModeTime: 343593750
+VirtualSize: 698470400
+WindowsVersion: 10.0.10240
+WorkingSetSize: 19140608
+WriteOperationCount: 3153
+WriteTransferCount: 36782683
+Caption: NvStreamService.exe
+CommandLine: "C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025027.200388+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: NvStreamService.exe
+ExecutablePath: C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamService.exe
+ExecutionState: 
+Handle: 3188
+HandleCount: 214
+InstallDate: 
+KernelModeTime: 5781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: NvStreamService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 2653331
+OtherTransferCount: 42511968
+PageFaults: 100541
+PageFileUsage: 2896
+ParentProcessId: 868
+PeakPageFileUsage: 3220
+PeakVirtualSize: 93532160
+PeakWorkingSetSize: 11116
+Priority: 8
+PrivatePageCount: 2965504
+ProcessId: 3188
+QuotaNonPagedPoolUsage: 16
+QuotaPagedPoolUsage: 141
+QuotaPeakNonPagedPoolUsage: 25
+QuotaPeakPagedPoolUsage: 173
+ReadOperationCount: 14
+ReadTransferCount: 24781
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 7
+UserModeTime: 12343750
+VirtualSize: 78733312
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4411392
+WriteOperationCount: 543
+WriteTransferCount: 49523
+Caption: msmdsrv.exe
+CommandLine: "C:\Program Files\Microsoft SQL Server\MSAS10_50.MSSQLSERVER2008\OLAP\bin\msmdsrv.exe" -s "C:\Program Files\Microsoft SQL Server\MSAS10_50.MSSQLSERVER2008\OLAP\Config"
+CreationClassName: Win32_Process
+CreationDate: 20170921025027.209488+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: msmdsrv.exe
+ExecutablePath: C:\Program Files\Microsoft SQL Server\MSAS10_50.MSSQLSERVER2008\OLAP\bin\msmdsrv.exe
+ExecutionState: 
+Handle: 3196
+HandleCount: 716
+InstallDate: 
+KernelModeTime: 48906250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: msmdsrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 55886
+OtherTransferCount: 77186
+PageFaults: 101026
+PageFileUsage: 62060
+ParentProcessId: 868
+PeakPageFileUsage: 62188
+PeakVirtualSize: 711041024
+PeakWorkingSetSize: 54420
+Priority: 8
+PrivatePageCount: 63549440
+ProcessId: 3196
+QuotaNonPagedPoolUsage: 52
+QuotaPagedPoolUsage: 416
+QuotaPeakNonPagedPoolUsage: 55
+QuotaPeakPagedPoolUsage: 443
+ReadOperationCount: 26947
+ReadTransferCount: 38044924
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 18
+UserModeTime: 186718750
+VirtualSize: 700833792
+WindowsVersion: 10.0.10240
+WorkingSetSize: 26001408
+WriteOperationCount: 2783
+WriteTransferCount: 32454874
+Caption: ReportingServicesService.exe
+CommandLine: "C:\Program Files\Microsoft SQL Server\MSRS12.MSSQLSERVER2014\Reporting Services\ReportServer\bin\ReportingServicesService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025027.763814+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: ReportingServicesService.exe
+ExecutablePath: C:\Program Files\Microsoft SQL Server\MSRS12.MSSQLSERVER2014\Reporting Services\ReportServer\bin\ReportingServicesService.exe
+ExecutionState: 
+Handle: 3324
+HandleCount: 772
+InstallDate: 
+KernelModeTime: 611875000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: ReportingServicesService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1487455
+OtherTransferCount: 73868162
+PageFaults: 275564
+PageFileUsage: 171004
+ParentProcessId: 868
+PeakPageFileUsage: 173016
+PeakVirtualSize: 24085839872
+PeakWorkingSetSize: 142596
+Priority: 8
+PrivatePageCount: 175108096
+ProcessId: 3324
+QuotaNonPagedPoolUsage: 83
+QuotaPagedPoolUsage: 439
+QuotaPeakNonPagedPoolUsage: 91
+QuotaPeakPagedPoolUsage: 443
+ReadOperationCount: 362
+ReadTransferCount: 27515513
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 51
+UserModeTime: 593593750
+VirtualSize: 24079872000
+WindowsVersion: 10.0.10240
+WorkingSetSize: 144416768
+WriteOperationCount: 334
+WriteTransferCount: 237642
+Caption: sqlbrowser.exe
+CommandLine: "C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025029.483106+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: sqlbrowser.exe
+ExecutablePath: C:\Program Files (x86)\Microsoft SQL Server\90\Shared\sqlbrowser.exe
+ExecutionState: 
+Handle: 3776
+HandleCount: 467
+InstallDate: 
+KernelModeTime: 148437500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: sqlbrowser.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 33995
+OtherTransferCount: 574356
+PageFaults: 231864
+PageFileUsage: 10752
+ParentProcessId: 868
+PeakPageFileUsage: 40008
+PeakVirtualSize: 105316352
+PeakWorkingSetSize: 10880
+Priority: 8
+PrivatePageCount: 11010048
+ProcessId: 3776
+QuotaNonPagedPoolUsage: 27
+QuotaPagedPoolUsage: 97
+QuotaPeakNonPagedPoolUsage: 30
+QuotaPeakPagedPoolUsage: 98
+ReadOperationCount: 9
+ReadTransferCount: 10398
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 16
+UserModeTime: 438906250
+VirtualSize: 99651584
+WindowsVersion: 10.0.10240
+WorkingSetSize: 5787648
+WriteOperationCount: 12
+WriteTransferCount: 10398
+Caption: sqlwriter.exe
+CommandLine: "C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025030.329834+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: sqlwriter.exe
+ExecutablePath: C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe
+ExecutionState: 
+Handle: 3824
+HandleCount: 116
+InstallDate: 
+KernelModeTime: 781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: sqlwriter.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 113
+OtherTransferCount: 932
+PageFaults: 3651
+PageFileUsage: 1844
+ParentProcessId: 868
+PeakPageFileUsage: 2840
+PeakVirtualSize: 54595584
+PeakWorkingSetSize: 7452
+Priority: 8
+PrivatePageCount: 1888256
+ProcessId: 3824
+QuotaNonPagedPoolUsage: 10
+QuotaPagedPoolUsage: 74
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 74
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 625000
+VirtualSize: 41963520
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2486272
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k appmodel
+CreationClassName: Win32_Process
+CreationDate: 20170921025030.743389+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 3888
+HandleCount: 448
+InstallDate: 
+KernelModeTime: 235312500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 176052
+OtherTransferCount: 7026684
+PageFaults: 1265580
+PageFileUsage: 5716
+ParentProcessId: 868
+PeakPageFileUsage: 27492
+PeakVirtualSize: 2200492703744
+PeakWorkingSetSize: 31188
+Priority: 8
+PrivatePageCount: 5853184
+ProcessId: 3888
+QuotaNonPagedPoolUsage: 13
+QuotaPagedPoolUsage: 133
+QuotaPeakNonPagedPoolUsage: 840
+QuotaPeakPagedPoolUsage: 195
+ReadOperationCount: 13415
+ReadTransferCount: 84654736
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 554687500
+VirtualSize: 2199099326464
+WindowsVersion: 10.0.10240
+WorkingSetSize: 14528512
+WriteOperationCount: 26699
+WriteTransferCount: 105580902
+Caption: valWBFPolicyService.exe
+CommandLine: C:\Windows\system32\valWBFPolicyService.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025030.758308+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: valWBFPolicyService.exe
+ExecutablePath: C:\Windows\system32\valWBFPolicyService.exe
+ExecutionState: 
+Handle: 3904
+HandleCount: 55
+InstallDate: 
+KernelModeTime: 156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: valWBFPolicyService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 145
+OtherTransferCount: 1208
+PageFaults: 1962
+PageFileUsage: 1012
+ParentProcessId: 868
+PeakPageFileUsage: 1108
+PeakVirtualSize: 22708224
+PeakWorkingSetSize: 3960
+Priority: 8
+PrivatePageCount: 1036288
+ProcessId: 3904
+QuotaNonPagedPoolUsage: 5
+QuotaPagedPoolUsage: 34
+QuotaPeakNonPagedPoolUsage: 7
+QuotaPeakPagedPoolUsage: 34
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 2
+UserModeTime: 156250
+VirtualSize: 19537920
+WindowsVersion: 10.0.10240
+WorkingSetSize: 1761280
+WriteOperationCount: 12
+WriteTransferCount: 630
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k iissvcs
+CreationClassName: Win32_Process
+CreationDate: 20170921025031.046056+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 3952
+HandleCount: 171
+InstallDate: 
+KernelModeTime: 625000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1380
+OtherTransferCount: 88132
+PageFaults: 4636
+PageFileUsage: 3808
+ParentProcessId: 868
+PeakPageFileUsage: 4376
+PeakVirtualSize: 2199076835328
+PeakWorkingSetSize: 9856
+Priority: 8
+PrivatePageCount: 3899392
+ProcessId: 3952
+QuotaNonPagedPoolUsage: 15
+QuotaPagedPoolUsage: 72
+QuotaPeakNonPagedPoolUsage: 16
+QuotaPeakPagedPoolUsage: 72
+ReadOperationCount: 203
+ReadTransferCount: 927930
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 15
+UserModeTime: 2031250
+VirtualSize: 2199074181120
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4272128
+WriteOperationCount: 1
+WriteTransferCount: 83806
+Caption: vmms.exe
+CommandLine: C:\Windows\system32\vmms.exe
+CreationClassName: Win32_Process
+CreationDate: 20170921025031.049742+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: vmms.exe
+ExecutablePath: C:\Windows\system32\vmms.exe
+ExecutionState: 
+Handle: 3964
+HandleCount: 520
+InstallDate: 
+KernelModeTime: 8593750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: vmms.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 12839
+OtherTransferCount: 1840188
+PageFaults: 21443
+PageFileUsage: 14984
+ParentProcessId: 868
+PeakPageFileUsage: 37536
+PeakVirtualSize: 2199269421056
+PeakWorkingSetSize: 32280
+Priority: 8
+PrivatePageCount: 15343616
+ProcessId: 3964
+QuotaNonPagedPoolUsage: 25
+QuotaPagedPoolUsage: 248
+QuotaPeakNonPagedPoolUsage: 28
+QuotaPeakPagedPoolUsage: 278
+ReadOperationCount: 285
+ReadTransferCount: 545274
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 12
+UserModeTime: 5625000
+VirtualSize: 2199190142976
+WindowsVersion: 10.0.10240
+WorkingSetSize: 12144640
+WriteOperationCount: 8
+WriteTransferCount: 65942
+Caption: ZDServ.exe
+CommandLine: "C:\ProgramData\ZDSupport\ZDServ\ZDServ.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025031.114727+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: ZDServ.exe
+ExecutablePath: C:\ProgramData\ZDSupport\ZDServ\ZDServ.exe
+ExecutionState: 
+Handle: 4064
+HandleCount: 203
+InstallDate: 
+KernelModeTime: 3887031250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: ZDServ.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 891706
+OtherTransferCount: 62150
+PageFaults: 1219504
+PageFileUsage: 2220
+ParentProcessId: 868
+PeakPageFileUsage: 2500
+PeakVirtualSize: 78376960
+PeakWorkingSetSize: 11240
+Priority: 8
+PrivatePageCount: 2273280
+ProcessId: 4064
+QuotaNonPagedPoolUsage: 14
+QuotaPagedPoolUsage: 128
+QuotaPeakNonPagedPoolUsage: 17
+QuotaPeakPagedPoolUsage: 133
+ReadOperationCount: 440417
+ReadTransferCount: 12323626
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 1479843750
+VirtualSize: 70266880
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3452928
+WriteOperationCount: 327
+WriteTransferCount: 27486
+Caption: MsMpEng.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025031.202035+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: MsMpEng.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 3184
+HandleCount: 669
+InstallDate: 
+KernelModeTime: 10985000000
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: MsMpEng.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 70426455
+OtherTransferCount: 471956963
+PageFaults: 13852420
+PageFileUsage: 159816
+ParentProcessId: 868
+PeakPageFileUsage: 562484
+PeakVirtualSize: 2199978430464
+PeakWorkingSetSize: 529516
+Priority: 8
+PrivatePageCount: 163651584
+ProcessId: 3184
+QuotaNonPagedPoolUsage: 77
+QuotaPagedPoolUsage: 622
+QuotaPeakNonPagedPoolUsage: 155
+QuotaPeakPagedPoolUsage: 1052
+ReadOperationCount: 1585113
+ReadTransferCount: 7907540354
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 26
+UserModeTime: 23018750000
+VirtualSize: 2199598460928
+WindowsVersion: 10.0.10240
+WorkingSetSize: 240783360
+WriteOperationCount: 238360
+WriteTransferCount: 1222017707
+Caption: TeamViewer_Service.exe
+CommandLine: "C:\Program Files (x86)\TeamViewer\TeamViewer_Service.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025033.187470+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: TeamViewer_Service.exe
+ExecutablePath: C:\Program Files (x86)\TeamViewer\TeamViewer_Service.exe
+ExecutionState: 
+Handle: 4208
+HandleCount: 432
+InstallDate: 
+KernelModeTime: 501406250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: TeamViewer_Service.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 209145
+OtherTransferCount: 50904488
+PageFaults: 172478
+PageFileUsage: 8016
+ParentProcessId: 868
+PeakPageFileUsage: 24208
+PeakVirtualSize: 152244224
+PeakWorkingSetSize: 33536
+Priority: 8
+PrivatePageCount: 8208384
+ProcessId: 4208
+QuotaNonPagedPoolUsage: 33
+QuotaPagedPoolUsage: 197
+QuotaPeakNonPagedPoolUsage: 231
+QuotaPeakPagedPoolUsage: 243
+ReadOperationCount: 1593
+ReadTransferCount: 109046160
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 21
+UserModeTime: 654218750
+VirtualSize: 127541248
+WindowsVersion: 10.0.10240
+WorkingSetSize: 10711040
+WriteOperationCount: 4067
+WriteTransferCount: 82863543
+Caption: svchost.exe
+CommandLine: C:\Windows\System32\svchost.exe -k LocalServicePeerNet
+CreationClassName: Win32_Process
+CreationDate: 20170921025040.118944+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\System32\svchost.exe
+ExecutionState: 
+Handle: 4912
+HandleCount: 467
+InstallDate: 
+KernelModeTime: 528750000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 751951
+OtherTransferCount: 53110096
+PageFaults: 831076
+PageFileUsage: 4304
+ParentProcessId: 868
+PeakPageFileUsage: 5152
+PeakVirtualSize: 2199764131840
+PeakWorkingSetSize: 14016
+Priority: 8
+PrivatePageCount: 4407296
+ProcessId: 4912
+QuotaNonPagedPoolUsage: 27
+QuotaPagedPoolUsage: 100
+QuotaPeakNonPagedPoolUsage: 79
+QuotaPeakPagedPoolUsage: 105
+ReadOperationCount: 571
+ReadTransferCount: 17306237
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 14
+UserModeTime: 544062500
+VirtualSize: 2199754473472
+WindowsVersion: 10.0.10240
+WorkingSetSize: 10567680
+WriteOperationCount: 1120
+WriteTransferCount: 13155852
+Caption: dllhost.exe
+CommandLine: C:\Windows\system32\DllHost.exe /Processid:{30D49246-D217-465F-B00B-AC9DDD652EB7}
+CreationClassName: Win32_Process
+CreationDate: 20170921025109.549072+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: dllhost.exe
+ExecutablePath: C:\Windows\system32\DllHost.exe
+ExecutionState: 
+Handle: 6060
+HandleCount: 109
+InstallDate: 
+KernelModeTime: 468750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: dllhost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 65
+OtherTransferCount: 558
+PageFaults: 5016
+PageFileUsage: 1412
+ParentProcessId: 976
+PeakPageFileUsage: 1432
+PeakVirtualSize: 2199063269376
+PeakWorkingSetSize: 8732
+Priority: 8
+PrivatePageCount: 1445888
+ProcessId: 6060
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 65
+QuotaPeakNonPagedPoolUsage: 9
+QuotaPeakPagedPoolUsage: 66
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 6
+UserModeTime: 468750
+VirtualSize: 2199060897792
+WindowsVersion: 10.0.10240
+WorkingSetSize: 2424832
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: PanProcess.exe
+CommandLine: "C:\Program Files (x86)\PANDORA.TV\PanService\PanProcess.exe" PanProcess
+CreationClassName: Win32_Process
+CreationDate: 20170921025116.184813+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: PanProcess.exe
+ExecutablePath: C:\Program Files (x86)\PANDORA.TV\PanService\PanProcess.exe
+ExecutionState: 
+Handle: 892
+HandleCount: 457
+InstallDate: 
+KernelModeTime: 649375000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: PanProcess.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1712385
+OtherTransferCount: 27841214
+PageFaults: 8985031
+PageFileUsage: 18916
+ParentProcessId: 2080
+PeakPageFileUsage: 19216
+PeakVirtualSize: 118235136
+PeakWorkingSetSize: 16960
+Priority: 8
+PrivatePageCount: 19369984
+ProcessId: 892
+QuotaNonPagedPoolUsage: 29
+QuotaPagedPoolUsage: 154
+QuotaPeakNonPagedPoolUsage: 33
+QuotaPeakPagedPoolUsage: 174
+ReadOperationCount: 3886
+ReadTransferCount: 1846024
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 24
+UserModeTime: 202968750
+VirtualSize: 115589120
+WindowsVersion: 10.0.10240
+WorkingSetSize: 11669504
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: NisSrv.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20170921025118.225844+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: NisSrv.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 5472
+HandleCount: 204
+InstallDate: 
+KernelModeTime: 252187500
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: NisSrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 449090
+OtherTransferCount: 172567675
+PageFaults: 52808
+PageFileUsage: 17972
+ParentProcessId: 868
+PeakPageFileUsage: 49724
+PeakVirtualSize: 2199131328512
+PeakWorkingSetSize: 40396
+Priority: 8
+PrivatePageCount: 18403328
+ProcessId: 5472
+QuotaNonPagedPoolUsage: 35
+QuotaPagedPoolUsage: 88
+QuotaPeakNonPagedPoolUsage: 197
+QuotaPeakPagedPoolUsage: 96
+ReadOperationCount: 8355
+ReadTransferCount: 139500104
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 13
+UserModeTime: 1616718750
+VirtualSize: 2199098454016
+WindowsVersion: 10.0.10240
+WorkingSetSize: 10096640
+WriteOperationCount: 1133
+WriteTransferCount: 40877
+Caption: SearchIndexer.exe
+CommandLine: C:\Windows\system32\SearchIndexer.exe /Embedding
+CreationClassName: Win32_Process
+CreationDate: 20170921025130.980188+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: SearchIndexer.exe
+ExecutablePath: C:\Windows\system32\SearchIndexer.exe
+ExecutionState: 
+Handle: 7136
+HandleCount: 846
+InstallDate: 
+KernelModeTime: 199218750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: SearchIndexer.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1304972
+OtherTransferCount: 91477728
+PageFaults: 158012
+PageFileUsage: 38692
+ParentProcessId: 868
+PeakPageFileUsage: 69576
+PeakVirtualSize: 2199595696128
+PeakWorkingSetSize: 48412
+Priority: 8
+PrivatePageCount: 39620608
+ProcessId: 7136
+QuotaNonPagedPoolUsage: 77
+QuotaPagedPoolUsage: 262
+QuotaPeakNonPagedPoolUsage: 172
+QuotaPeakPagedPoolUsage: 580
+ReadOperationCount: 4917
+ReadTransferCount: 8220560
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 23
+UserModeTime: 330156250
+VirtualSize: 2199473627136
+WindowsVersion: 10.0.10240
+WorkingSetSize: 30703616
+WriteOperationCount: 4656
+WriteTransferCount: 57094894
+Caption: jhi_service.exe
+CommandLine: "C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL\jhi_service.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025259.256247+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: jhi_service.exe
+ExecutablePath: C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL\jhi_service.exe
+ExecutionState: 
+Handle: 7456
+HandleCount: 101
+InstallDate: 
+KernelModeTime: 156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: jhi_service.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 65
+OtherTransferCount: 316
+PageFaults: 2596
+PageFileUsage: 1100
+ParentProcessId: 868
+PeakPageFileUsage: 1432
+PeakVirtualSize: 37654528
+PeakWorkingSetSize: 5420
+Priority: 8
+PrivatePageCount: 1126400
+ProcessId: 7456
+QuotaNonPagedPoolUsage: 9
+QuotaPagedPoolUsage: 64
+QuotaPeakNonPagedPoolUsage: 11
+QuotaPeakPagedPoolUsage: 64
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 2
+UserModeTime: 0
+VirtualSize: 31096832
+WindowsVersion: 10.0.10240
+WorkingSetSize: 1802240
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: LMS.exe
+CommandLine: "C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\LMS\LMS.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025259.549844+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: LMS.exe
+ExecutablePath: C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\LMS\LMS.exe
+ExecutionState: 
+Handle: 7716
+HandleCount: 230
+InstallDate: 
+KernelModeTime: 781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: LMS.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 919
+OtherTransferCount: 8171
+PageFaults: 6546
+PageFileUsage: 3516
+ParentProcessId: 868
+PeakPageFileUsage: 4188
+PeakVirtualSize: 82751488
+PeakWorkingSetSize: 12644
+Priority: 8
+PrivatePageCount: 3600384
+ProcessId: 7716
+QuotaNonPagedPoolUsage: 16
+QuotaPagedPoolUsage: 142
+QuotaPeakNonPagedPoolUsage: 20
+QuotaPeakPagedPoolUsage: 150
+ReadOperationCount: 11
+ReadTransferCount: 927134
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 7
+UserModeTime: 9531250
+VirtualSize: 76029952
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4419584
+WriteOperationCount: 928
+WriteTransferCount: 67995
+Caption: wmpnetwk.exe
+CommandLine: "C:\Program Files\Windows Media Player\wmpnetwk.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921025304.130123+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: wmpnetwk.exe
+ExecutablePath: C:\Program Files\Windows Media Player\wmpnetwk.exe
+ExecutionState: 
+Handle: 7936
+HandleCount: 537
+InstallDate: 
+KernelModeTime: 18593750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: wmpnetwk.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 27493
+OtherTransferCount: 1856086
+PageFaults: 63060
+PageFileUsage: 8520
+ParentProcessId: 868
+PeakPageFileUsage: 8556
+PeakVirtualSize: 2199151218688
+PeakWorkingSetSize: 23020
+Priority: 8
+PrivatePageCount: 8724480
+ProcessId: 7936
+QuotaNonPagedPoolUsage: 30
+QuotaPagedPoolUsage: 229
+QuotaPeakNonPagedPoolUsage: 34
+QuotaPeakPagedPoolUsage: 239
+ReadOperationCount: 405
+ReadTransferCount: 427721
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 15
+UserModeTime: 11250000
+VirtualSize: 2199143698432
+WindowsVersion: 10.0.10240
+WorkingSetSize: 7000064
+WriteOperationCount: 105
+WriteTransferCount: 3392
+Caption: isa.exe
+CommandLine: "C:\Program Files (x86)\Intel\Intel(R) Security Assist\isa.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170921032026.518948+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: isa.exe
+ExecutablePath: C:\Program Files (x86)\Intel\Intel(R) Security Assist\isa.exe
+ExecutionState: 
+Handle: 4512
+HandleCount: 419
+InstallDate: 
+KernelModeTime: 5312500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: isa.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 4840
+OtherTransferCount: 293959
+PageFaults: 12236
+PageFileUsage: 15948
+ParentProcessId: 868
+PeakPageFileUsage: 16344
+PeakVirtualSize: 201900032
+PeakWorkingSetSize: 18652
+Priority: 8
+PrivatePageCount: 16330752
+ProcessId: 4512
+QuotaNonPagedPoolUsage: 23
+QuotaPagedPoolUsage: 307
+QuotaPeakNonPagedPoolUsage: 28
+QuotaPeakPagedPoolUsage: 314
+ReadOperationCount: 34
+ReadTransferCount: 108092
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 3437500
+VirtualSize: 194748416
+WindowsVersion: 10.0.10240
+WorkingSetSize: 9912320
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: StandardCollector.Service.exe
+CommandLine: "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\DiagnosticsHub\Collector\StandardCollector.Service.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170925155025.467480+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: StandardCollector.Service.exe
+ExecutablePath: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\DiagnosticsHub\Collector\StandardCollector.Service.exe
+ExecutionState: 
+Handle: 8116
+HandleCount: 210
+InstallDate: 
+KernelModeTime: 3437500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: StandardCollector.Service.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 3675
+OtherTransferCount: 84244
+PageFaults: 48825
+PageFileUsage: 5536
+ParentProcessId: 868
+PeakPageFileUsage: 36660
+PeakVirtualSize: 167768064
+PeakWorkingSetSize: 43836
+Priority: 8
+PrivatePageCount: 5668864
+ProcessId: 8116
+QuotaNonPagedPoolUsage: 16
+QuotaPagedPoolUsage: 184
+QuotaPeakNonPagedPoolUsage: 27
+QuotaPeakPagedPoolUsage: 194
+ReadOperationCount: 748
+ReadTransferCount: 10752408
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 2968750
+VirtualSize: 101363712
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4571136
+WriteOperationCount: 149
+WriteTransferCount: 9573481
+Caption: svchost.exe
+CommandLine: C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+CreationClassName: Win32_Process
+CreationDate: 20170925231257.005597+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: svchost.exe
+ExecutablePath: C:\Windows\system32\svchost.exe
+ExecutionState: 
+Handle: 9420
+HandleCount: 123
+InstallDate: 
+KernelModeTime: 25156250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: svchost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 42637
+OtherTransferCount: 2352902
+PageFaults: 63146
+PageFileUsage: 1420
+ParentProcessId: 868
+PeakPageFileUsage: 3124
+PeakVirtualSize: 2199055880192
+PeakWorkingSetSize: 8584
+Priority: 8
+PrivatePageCount: 1454080
+ProcessId: 9420
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 50
+QuotaPeakNonPagedPoolUsage: 16
+QuotaPeakPagedPoolUsage: 51
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 8750000
+VirtualSize: 2199051599872
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3563520
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: Lavasoft.WCAssistant.WinService.exe
+CommandLine: "C:\Program Files (x86)\Lavasoft\Web Companion\Application\Lavasoft.WCAssistant.WinService.exe"
+CreationClassName: Win32_Process
+CreationDate: 20170927005323.436745+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: Lavasoft.WCAssistant.WinService.exe
+ExecutablePath: C:\Program Files (x86)\Lavasoft\Web Companion\Application\Lavasoft.WCAssistant.WinService.exe
+ExecutionState: 
+Handle: 8788
+HandleCount: 445
+InstallDate: 
+KernelModeTime: 5781250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: Lavasoft.WCAssistant.WinService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1954
+OtherTransferCount: 56488
+PageFaults: 38014
+PageFileUsage: 35884
+ParentProcessId: 868
+PeakPageFileUsage: 42696
+PeakVirtualSize: 620244992
+PeakWorkingSetSize: 51392
+Priority: 8
+PrivatePageCount: 36745216
+ProcessId: 8788
+QuotaNonPagedPoolUsage: 51
+QuotaPagedPoolUsage: 351
+QuotaPeakNonPagedPoolUsage: 59
+QuotaPeakPagedPoolUsage: 360
+ReadOperationCount: 91
+ReadTransferCount: 662669
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 11
+UserModeTime: 34375000
+VirtualSize: 606896128
+WindowsVersion: 10.0.10240
+WorkingSetSize: 16601088
+WriteOperationCount: 27
+WriteTransferCount: 6037
+Caption: PresentationFontCache.exe
+CommandLine: C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe
+CreationClassName: Win32_Process
+CreationDate: 20170927005339.962325+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: PresentationFontCache.exe
+ExecutablePath: C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe
+ExecutionState: 
+Handle: 8536
+HandleCount: 205
+InstallDate: 
+KernelModeTime: 2812500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: PresentationFontCache.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 2134
+OtherTransferCount: 80168
+PageFaults: 13974
+PageFileUsage: 32420
+ParentProcessId: 868
+PeakPageFileUsage: 34264
+PeakVirtualSize: 584790016
+PeakWorkingSetSize: 29260
+Priority: 8
+PrivatePageCount: 33198080
+ProcessId: 8536
+QuotaNonPagedPoolUsage: 26
+QuotaPagedPoolUsage: 259
+QuotaPeakNonPagedPoolUsage: 28
+QuotaPeakPagedPoolUsage: 316
+ReadOperationCount: 42
+ReadTransferCount: 1684244
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 5
+UserModeTime: 7343750
+VirtualSize: 551809024
+WindowsVersion: 10.0.10240
+WorkingSetSize: 11816960
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: dllhost.exe
+CommandLine: C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+CreationClassName: Win32_Process
+CreationDate: 20170927121301.903544+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: dllhost.exe
+ExecutablePath: C:\Windows\system32\dllhost.exe
+ExecutionState: 
+Handle: 4332
+HandleCount: 205
+InstallDate: 
+KernelModeTime: 2656250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: dllhost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 257
+OtherTransferCount: 3988
+PageFaults: 4382
+PageFileUsage: 3764
+ParentProcessId: 868
+PeakPageFileUsage: 3992
+PeakVirtualSize: 2199085522944
+PeakWorkingSetSize: 12744
+Priority: 8
+PrivatePageCount: 3854336
+ProcessId: 4332
+QuotaNonPagedPoolUsage: 14
+QuotaPagedPoolUsage: 83
+QuotaPeakNonPagedPoolUsage: 17
+QuotaPeakPagedPoolUsage: 84
+ReadOperationCount: 4156
+ReadTransferCount: 2095889
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 12
+UserModeTime: 14531250
+VirtualSize: 2199078117376
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4820992
+WriteOperationCount: 6
+WriteTransferCount: 3585
+Caption: notepad.exe
+CommandLine: notepad.exe
+CreationClassName: Win32_Process
+CreationDate: 20170927171357.490861+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: notepad.exe
+ExecutablePath: C:\Windows\system32\notepad.exe
+ExecutionState: 
+Handle: 4836
+HandleCount: 102
+InstallDate: 
+KernelModeTime: 40625000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: notepad.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 45
+OtherTransferCount: 110
+PageFaults: 1779
+PageFileUsage: 1252
+ParentProcessId: 8928
+PeakPageFileUsage: 1424
+PeakVirtualSize: 2199088578560
+PeakWorkingSetSize: 5600
+Priority: 8
+PrivatePageCount: 1282048
+ProcessId: 4836
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 119
+QuotaPeakNonPagedPoolUsage: 8
+QuotaPeakPagedPoolUsage: 120
+ReadOperationCount: 1
+ReadTransferCount: 8440
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 2
+UserModeTime: 156250
+VirtualSize: 2199085678592
+WindowsVersion: 10.0.10240
+WorkingSetSize: 1503232
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: notepad.exe
+CommandLine: notepad.exe
+CreationClassName: Win32_Process
+CreationDate: 20170927171602.747240+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: notepad.exe
+ExecutablePath: C:\Windows\system32\notepad.exe
+ExecutionState: 
+Handle: 3228
+HandleCount: 102
+InstallDate: 
+KernelModeTime: 40937500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: notepad.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 43
+OtherTransferCount: 110
+PageFaults: 1771
+PageFileUsage: 1152
+ParentProcessId: 8928
+PeakPageFileUsage: 1416
+PeakVirtualSize: 2199087136768
+PeakWorkingSetSize: 5596
+Priority: 8
+PrivatePageCount: 1179648
+ProcessId: 3228
+QuotaNonPagedPoolUsage: 7
+QuotaPagedPoolUsage: 119
+QuotaPeakNonPagedPoolUsage: 8
+QuotaPeakPagedPoolUsage: 120
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 1
+UserModeTime: 468750
+VirtualSize: 2199085146112
+WindowsVersion: 10.0.10240
+WorkingSetSize: 1486848
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: NvStreamNetworkService.exe
+CommandLine: "C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamNetworkService.exe" b58ec079-5aa8-442e-aa27-dabb3883325a
+CreationClassName: Win32_Process
+CreationDate: 20171002112224.664614+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: NvStreamNetworkService.exe
+ExecutablePath: C:\Program Files\NVIDIA Corporation\NvStreamSrv\NvStreamNetworkService.exe
+ExecutionState: 
+Handle: 5668
+HandleCount: 305
+InstallDate: 
+KernelModeTime: 7343750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: NvStreamNetworkService.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 3489716
+OtherTransferCount: 56206918
+PageFaults: 4298
+PageFileUsage: 4268
+ParentProcessId: 3188
+PeakPageFileUsage: 4356
+PeakVirtualSize: 99622912
+PeakWorkingSetSize: 12832
+Priority: 8
+PrivatePageCount: 4370432
+ProcessId: 5668
+QuotaNonPagedPoolUsage: 27
+QuotaPagedPoolUsage: 160
+QuotaPeakNonPagedPoolUsage: 32
+QuotaPeakPagedPoolUsage: 162
+ReadOperationCount: 50
+ReadTransferCount: 20252
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 20
+UserModeTime: 4375000
+VirtualSize: 96452608
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4919296
+WriteOperationCount: 129
+WriteTransferCount: 12287
+Caption: conhost.exe
+CommandLine: \??\C:\Windows\system32\conhost.exe 0x4
+CreationClassName: Win32_Process
+CreationDate: 20171002112224.666613+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: conhost.exe
+ExecutablePath: C:\Windows\system32\conhost.exe
+ExecutionState: 
+Handle: 8452
+HandleCount: 98
+InstallDate: 
+KernelModeTime: 0
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: conhost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 175
+OtherTransferCount: 6970
+PageFaults: 3224
+PageFileUsage: 10180
+ParentProcessId: 5668
+PeakPageFileUsage: 10284
+PeakVirtualSize: 2199090302976
+PeakWorkingSetSize: 9180
+Priority: 8
+PrivatePageCount: 10424320
+ProcessId: 8452
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 116
+QuotaPeakNonPagedPoolUsage: 9
+QuotaPeakPagedPoolUsage: 116
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 3
+UserModeTime: 312500
+VirtualSize: 2199089762304
+WindowsVersion: 10.0.10240
+WorkingSetSize: 4251648
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiPrvSE.exe
+CommandLine: C:\Windows\system32\wbem\wmiprvse.exe
+CreationClassName: Win32_Process
+CreationDate: 20171018002400.866937+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiPrvSE.exe
+ExecutablePath: C:\Windows\system32\wbem\wmiprvse.exe
+ExecutionState: 
+Handle: 4600
+HandleCount: 392
+InstallDate: 
+KernelModeTime: 8437500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiPrvSE.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 10773
+OtherTransferCount: 270645
+PageFaults: 25003
+PageFileUsage: 8244
+ParentProcessId: 976
+PeakPageFileUsage: 9328
+PeakVirtualSize: 2199110115328
+PeakWorkingSetSize: 16700
+Priority: 8
+PrivatePageCount: 8441856
+ProcessId: 4600
+QuotaNonPagedPoolUsage: 17
+QuotaPagedPoolUsage: 147
+QuotaPeakNonPagedPoolUsage: 22
+QuotaPeakPagedPoolUsage: 155
+ReadOperationCount: 54
+ReadTransferCount: 325412
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 12
+UserModeTime: 10781250
+VirtualSize: 2199106711552
+WindowsVersion: 10.0.10240
+WorkingSetSize: 16486400
+WriteOperationCount: 52
+WriteTransferCount: 5608
+Caption: audiodg.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20171018013217.857036+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: audiodg.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 7376
+HandleCount: 210
+InstallDate: 
+KernelModeTime: 112812500
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: audiodg.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 19011
+OtherTransferCount: 2083914
+PageFaults: 3464
+PageFileUsage: 6884
+ParentProcessId: 1084
+PeakPageFileUsage: 8012
+PeakVirtualSize: 2199075160064
+PeakWorkingSetSize: 13260
+Priority: 8
+PrivatePageCount: 7049216
+ProcessId: 7376
+QuotaNonPagedPoolUsage: 13
+QuotaPagedPoolUsage: 101
+QuotaPeakNonPagedPoolUsage: 16
+QuotaPeakPagedPoolUsage: 101
+ReadOperationCount: 4
+ReadTransferCount: 812
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 6
+UserModeTime: 1250000
+VirtualSize: 2199072157696
+WindowsVersion: 10.0.10240
+WorkingSetSize: 12058624
+WriteOperationCount: 121
+WriteTransferCount: 31900
+Caption: csrss.exe
+CommandLine: 
+CreationClassName: Win32_Process
+CreationDate: 20171018013453.278766+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: csrss.exe
+ExecutablePath: 
+ExecutionState: 
+Handle: 3648
+HandleCount: 136
+InstallDate: 
+KernelModeTime: 8593750
+MaximumWorkingSetSize: 
+MinimumWorkingSetSize: 
+Name: csrss.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 942
+OtherTransferCount: 7570
+PageFaults: 7701
+PageFileUsage: 1244
+ParentProcessId: 13900
+PeakPageFileUsage: 9888
+PeakVirtualSize: 2199079620608
+PeakWorkingSetSize: 16244
+Priority: 13
+PrivatePageCount: 1273856
+ProcessId: 3648
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 105
+QuotaPeakNonPagedPoolUsage: 13
+QuotaPeakPagedPoolUsage: 113
+ReadOperationCount: 86
+ReadTransferCount: 76548
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 11
+UserModeTime: 156250
+VirtualSize: 2199066128384
+WindowsVersion: 10.0.10240
+WorkingSetSize: 3829760
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: winlogon.exe
+CommandLine: winlogon.exe
+CreationClassName: Win32_Process
+CreationDate: 20171018013453.318469+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: winlogon.exe
+ExecutablePath: C:\Windows\system32\winlogon.exe
+ExecutionState: 
+Handle: 9556
+HandleCount: 155
+InstallDate: 
+KernelModeTime: 1250000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: winlogon.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 1908
+OtherTransferCount: 2232
+PageFaults: 3155
+PageFileUsage: 1548
+ParentProcessId: 13900
+PeakPageFileUsage: 1836
+PeakVirtualSize: 2199081619456
+PeakWorkingSetSize: 10300
+Priority: 13
+PrivatePageCount: 1585152
+ProcessId: 9556
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 123
+QuotaPeakNonPagedPoolUsage: 10
+QuotaPeakPagedPoolUsage: 123
+ReadOperationCount: 1
+ReadTransferCount: 8192
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 156250
+VirtualSize: 2199080022016
+WindowsVersion: 10.0.10240
+WorkingSetSize: 10506240
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: LogonUI.exe
+CommandLine: "LogonUI.exe" /flags:0x0 /state0:0xa2e18855 /state1:0x41c64e6d
+CreationClassName: Win32_Process
+CreationDate: 20171018013453.773837+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: LogonUI.exe
+ExecutablePath: C:\Windows\system32\LogonUI.exe
+ExecutionState: 
+Handle: 8100
+HandleCount: 502
+InstallDate: 
+KernelModeTime: 937500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: LogonUI.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 864
+OtherTransferCount: 4232
+PageFaults: 20525
+PageFileUsage: 16104
+ParentProcessId: 9556
+PeakPageFileUsage: 30004
+PeakVirtualSize: 2199386574848
+PeakWorkingSetSize: 61736
+Priority: 13
+PrivatePageCount: 16490496
+ProcessId: 8100
+QuotaNonPagedPoolUsage: 33
+QuotaPagedPoolUsage: 538
+QuotaPeakNonPagedPoolUsage: 35
+QuotaPeakPagedPoolUsage: 565
+ReadOperationCount: 17
+ReadTransferCount: 179363
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 22
+UserModeTime: 2968750
+VirtualSize: 2199370383360
+WindowsVersion: 10.0.10240
+WorkingSetSize: 49836032
+WriteOperationCount: 2
+WriteTransferCount: 168
+Caption: dwm.exe
+CommandLine: "dwm.exe"
+CreationClassName: Win32_Process
+CreationDate: 20171018013453.774902+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: dwm.exe
+ExecutablePath: C:\Windows\system32\dwm.exe
+ExecutionState: 
+Handle: 13428
+HandleCount: 212
+InstallDate: 
+KernelModeTime: 468750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: dwm.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 296
+OtherTransferCount: 3918
+PageFaults: 16080
+PageFileUsage: 9312
+ParentProcessId: 9556
+PeakPageFileUsage: 21460
+PeakVirtualSize: 2199239892992
+PeakWorkingSetSize: 22608
+Priority: 13
+PrivatePageCount: 9535488
+ProcessId: 13428
+QuotaNonPagedPoolUsage: 17
+QuotaPagedPoolUsage: 229
+QuotaPeakNonPagedPoolUsage: 18
+QuotaPeakPagedPoolUsage: 278
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 468750
+VirtualSize: 2199209463808
+WindowsVersion: 10.0.10240
+WorkingSetSize: 22515712
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: nvvsvc.exe
+CommandLine: C:\Windows\system32\nvvsvc.exe -session
+CreationClassName: Win32_Process
+CreationDate: 20171018013453.819034+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: nvvsvc.exe
+ExecutablePath: C:\Windows\system32\nvvsvc.exe
+ExecutionState: 
+Handle: 10608
+HandleCount: 182
+InstallDate: 
+KernelModeTime: 312500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: nvvsvc.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 188
+OtherTransferCount: 148
+PageFaults: 3733
+PageFileUsage: 3588
+ParentProcessId: 1428
+PeakPageFileUsage: 4420
+PeakVirtualSize: 100499456
+PeakWorkingSetSize: 14304
+Priority: 8
+PrivatePageCount: 3674112
+ProcessId: 10608
+QuotaNonPagedPoolUsage: 14
+QuotaPagedPoolUsage: 163
+QuotaPeakNonPagedPoolUsage: 17
+QuotaPeakPagedPoolUsage: 172
+ReadOperationCount: 2
+ReadTransferCount: 6151
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 7
+UserModeTime: 468750
+VirtualSize: 90013696
+WindowsVersion: 10.0.10240
+WorkingSetSize: 12161024
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: nvxdsync.exe
+CommandLine: "C:\Program Files\NVIDIA Corporation\Display\nvxdsync.exe"
+CreationClassName: Win32_Process
+CreationDate: 20171018013454.241867+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: nvxdsync.exe
+ExecutablePath: C:\Program Files\NVIDIA Corporation\Display\nvxdsync.exe
+ExecutionState: 
+Handle: 12792
+HandleCount: 270
+InstallDate: 
+KernelModeTime: 1406250
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: nvxdsync.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 504
+OtherTransferCount: 33464
+PageFaults: 5794
+PageFileUsage: 6652
+ParentProcessId: 1428
+PeakPageFileUsage: 6792
+PeakVirtualSize: 139288576
+PeakWorkingSetSize: 19744
+Priority: 8
+PrivatePageCount: 6811648
+ProcessId: 12792
+QuotaNonPagedPoolUsage: 19
+QuotaPagedPoolUsage: 237
+QuotaPeakNonPagedPoolUsage: 22
+QuotaPeakPagedPoolUsage: 240
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 5
+Status: 
+TerminationDate: 
+ThreadCount: 13
+UserModeTime: 1093750
+VirtualSize: 133996544
+WindowsVersion: 10.0.10240
+WorkingSetSize: 20131840
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: SearchProtocolHost.exe
+CommandLine: "C:\Windows\system32\SearchProtocolHost.exe" Global\UsGthrFltPipeMssGthrPipe160_ Global\UsGthrCtrlFltPipeMssGthrPipe160 1 -2147483646 "Software\Microsoft\Windows Search" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)" "C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc" "DownLevelDaemon" 
+CreationClassName: Win32_Process
+CreationDate: 20171018013455.299081+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: SearchProtocolHost.exe
+ExecutablePath: C:\Windows\system32\SearchProtocolHost.exe
+ExecutionState: 
+Handle: 9928
+HandleCount: 332
+InstallDate: 
+KernelModeTime: 312500
+MaximumWorkingSetSize: 32768
+MinimumWorkingSetSize: 200
+Name: SearchProtocolHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 581
+OtherTransferCount: 8672
+PageFaults: 2964
+PageFileUsage: 1924
+ParentProcessId: 7136
+PeakPageFileUsage: 2076
+PeakVirtualSize: 2199097782272
+PeakWorkingSetSize: 10388
+Priority: 4
+PrivatePageCount: 1970176
+ProcessId: 9928
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 149
+QuotaPeakNonPagedPoolUsage: 14
+QuotaPeakPagedPoolUsage: 149
+ReadOperationCount: 4
+ReadTransferCount: 3848
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 6
+UserModeTime: 156250
+VirtualSize: 2199096184832
+WindowsVersion: 10.0.10240
+WorkingSetSize: 8245248
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiPrvSE.exe
+CommandLine: C:\Windows\sysWOW64\wbem\wmiprvse.exe -Embedding
+CreationClassName: Win32_Process
+CreationDate: 20171018141737.806892+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiPrvSE.exe
+ExecutablePath: C:\Windows\sysWOW64\wbem\wmiprvse.exe
+ExecutionState: 
+Handle: 7880
+HandleCount: 506
+InstallDate: 
+KernelModeTime: 11718750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiPrvSE.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 17597
+OtherTransferCount: 73532
+PageFaults: 53542
+PageFileUsage: 39692
+ParentProcessId: 976
+PeakPageFileUsage: 39692
+PeakVirtualSize: 199720960
+PeakWorkingSetSize: 47568
+Priority: 8
+PrivatePageCount: 40644608
+ProcessId: 7880
+QuotaNonPagedPoolUsage: 36
+QuotaPagedPoolUsage: 176
+QuotaPeakNonPagedPoolUsage: 38
+QuotaPeakPagedPoolUsage: 203
+ReadOperationCount: 18
+ReadTransferCount: 5176136
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 19
+UserModeTime: 11406250
+VirtualSize: 199684096
+WindowsVersion: 10.0.10240
+WorkingSetSize: 48689152
+WriteOperationCount: 7
+WriteTransferCount: 284
+Caption: SearchFilterHost.exe
+CommandLine: "C:\Windows\system32\SearchFilterHost.exe" 0 624 628 636 8192 632 
+CreationClassName: Win32_Process
+CreationDate: 20171018141739.375028+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: SearchFilterHost.exe
+ExecutablePath: C:\Windows\system32\SearchFilterHost.exe
+ExecutionState: 
+Handle: 1912
+HandleCount: 113
+InstallDate: 
+KernelModeTime: 156250
+MaximumWorkingSetSize: 32768
+MinimumWorkingSetSize: 200
+Name: SearchFilterHost.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 54
+OtherTransferCount: 160
+PageFaults: 1604
+PageFileUsage: 1232
+ParentProcessId: 7136
+PeakPageFileUsage: 1388
+PeakVirtualSize: 2199060795392
+PeakWorkingSetSize: 6128
+Priority: 4
+PrivatePageCount: 1261568
+ProcessId: 1912
+QuotaNonPagedPoolUsage: 8
+QuotaPagedPoolUsage: 100
+QuotaPeakNonPagedPoolUsage: 9
+QuotaPeakPagedPoolUsage: 100
+ReadOperationCount: 1
+ReadTransferCount: 4058
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 4
+UserModeTime: 0
+VirtualSize: 2199059197952
+WindowsVersion: 10.0.10240
+WorkingSetSize: 6221824
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiApSrv.exe
+CommandLine: C:\Windows\system32\wbem\WmiApSrv.exe
+CreationClassName: Win32_Process
+CreationDate: 20171018141741.707977+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiApSrv.exe
+ExecutablePath: C:\Windows\system32\wbem\WmiApSrv.exe
+ExecutionState: 
+Handle: 14244
+HandleCount: 153
+InstallDate: 
+KernelModeTime: 937500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiApSrv.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 288
+OtherTransferCount: 66626
+PageFaults: 2313
+PageFileUsage: 1668
+ParentProcessId: 868
+PeakPageFileUsage: 1692
+PeakVirtualSize: 2199057563648
+PeakWorkingSetSize: 7480
+Priority: 8
+PrivatePageCount: 1708032
+ProcessId: 14244
+QuotaNonPagedPoolUsage: 13
+QuotaPagedPoolUsage: 61
+QuotaPeakNonPagedPoolUsage: 16
+QuotaPeakPagedPoolUsage: 61
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 8
+UserModeTime: 312500
+VirtualSize: 2199057559552
+WindowsVersion: 10.0.10240
+WorkingSetSize: 7614464
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiPrvSE.exe
+CommandLine: C:\Windows\system32\wbem\wmiprvse.exe
+CreationClassName: Win32_Process
+CreationDate: 20171018141741.910756+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiPrvSE.exe
+ExecutablePath: C:\Windows\system32\wbem\wmiprvse.exe
+ExecutionState: 
+Handle: 10412
+HandleCount: 145
+InstallDate: 
+KernelModeTime: 312500
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiPrvSE.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 196
+OtherTransferCount: 5284
+PageFaults: 1993
+PageFileUsage: 2148
+ParentProcessId: 976
+PeakPageFileUsage: 3292
+PeakVirtualSize: 2199060156416
+PeakWorkingSetSize: 7480
+Priority: 8
+PrivatePageCount: 2199552
+ProcessId: 10412
+QuotaNonPagedPoolUsage: 12
+QuotaPagedPoolUsage: 63
+QuotaPeakNonPagedPoolUsage: 17
+QuotaPeakPagedPoolUsage: 65
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 156250
+VirtualSize: 2199058984960
+WindowsVersion: 10.0.10240
+WorkingSetSize: 7659520
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiPrvSE.exe
+CommandLine: C:\Windows\sysWOW64\wbem\wmiprvse.exe -secured -Embedding
+CreationClassName: Win32_Process
+CreationDate: 20171018141804.740047+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiPrvSE.exe
+ExecutablePath: C:\Windows\sysWOW64\wbem\wmiprvse.exe
+ExecutionState: 
+Handle: 10712
+HandleCount: 285
+InstallDate: 
+KernelModeTime: 1875000
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiPrvSE.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 12188
+OtherTransferCount: 174
+PageFaults: 12683
+PageFileUsage: 7032
+ParentProcessId: 976
+PeakPageFileUsage: 8676
+PeakVirtualSize: 118304768
+PeakWorkingSetSize: 12848
+Priority: 8
+PrivatePageCount: 7200768
+ProcessId: 10712
+QuotaNonPagedPoolUsage: 14
+QuotaPagedPoolUsage: 69
+QuotaPeakNonPagedPoolUsage: 14
+QuotaPeakPagedPoolUsage: 97
+ReadOperationCount: 2
+ReadTransferCount: 1482592
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 781250
+VirtualSize: 110456832
+WindowsVersion: 10.0.10240
+WorkingSetSize: 11644928
+WriteOperationCount: 0
+WriteTransferCount: 0
+Caption: WmiPrvSE.exe
+CommandLine: C:\Windows\sysWOW64\wbem\wmiprvse.exe -secured -Embedding
+CreationClassName: Win32_Process
+CreationDate: 20171018141810.588510+360
+CSCreationClassName: Win32_ComputerSystem
+CSName: DEVSTATION
+Description: WmiPrvSE.exe
+ExecutablePath: C:\Windows\sysWOW64\wbem\wmiprvse.exe
+ExecutionState: 
+Handle: 7032
+HandleCount: 180
+InstallDate: 
+KernelModeTime: 468750
+MaximumWorkingSetSize: 1380
+MinimumWorkingSetSize: 200
+Name: WmiPrvSE.exe
+OSCreationClassName: Win32_OperatingSystem
+OSName: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition1
+OtherOperationCount: 454
+OtherTransferCount: 5140
+PageFaults: 2503
+PageFileUsage: 3640
+ParentProcessId: 976
+PeakPageFileUsage: 3652
+PeakVirtualSize: 128053248
+PeakWorkingSetSize: 8636
+Priority: 8
+PrivatePageCount: 3727360
+ProcessId: 7032
+QuotaNonPagedPoolUsage: 14
+QuotaPagedPoolUsage: 114
+QuotaPeakNonPagedPoolUsage: 15
+QuotaPeakPagedPoolUsage: 114
+ReadOperationCount: 0
+ReadTransferCount: 0
+SessionId: 0
+Status: 
+TerminationDate: 
+ThreadCount: 9
+UserModeTime: 156250
+VirtualSize: 128045056
+WindowsVersion: 10.0.10240
+WorkingSetSize: 8785920
+WriteOperationCount: 0
+WriteTransferCount: 0
+: 
+
+
+
+
+
+

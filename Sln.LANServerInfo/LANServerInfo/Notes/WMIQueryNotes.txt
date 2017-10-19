@@ -1,0 +1,40 @@
+﻿
+
+
+Win32_ComputerSystem
+Win32_DisplayConfiguration
+Win32_OperatingSystem
+win32_processor
+Win32_BIOS
+
+Win32_LogicalDisk
+Win32_DiskDrive
+Win32_PhysicalMemory
+
+Win32_NetworkAdapter
+Win32_NetworkAdapterConfiguration
+
+
+Win32_PerfFormattedData_PerfOS_Processor
+Win32_Share 
+
+Win32_Volume 
+Win32_Process
+
+Win32_SerialPort
+
+Win32_PerfRawData_PerfProc_Process
+
+
+
+
+Select all list: Win32_
+//ManagementObjectSearcher wmi = new ManagementObjectSearcher("SELECT * FROM meta_class WHERE __CLASS LIKE 'Win32_%'");
+//foreach (ManagementObject obj in wmi.Get())
+//    Console.WriteLine(obj["__CLASS"]);
+
+
+
+Write List to file:
+ var fileToCreate = Utilities.OutputDirCustom + "\\" + Utilities.fileNames[2];
+                File.WriteAllLines(fileToCreate, result, Encoding.UTF8);

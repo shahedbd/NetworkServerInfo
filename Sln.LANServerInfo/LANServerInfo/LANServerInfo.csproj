@@ -53,15 +53,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsGetMACByIP.cs" />
+    <Compile Include="Global.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="IPUtility.cs" />
+    <Compile Include="Model\SytemInfo.cs" />
     <Compile Include="Notes\Class1.cs" />
     <Compile Include="PortDetails.cs" />
+    <Compile Include="Processes\Win32_ProcessModel.cs" />
+    <Compile Include="Processes\WMIProcess.cs" />
+    <Compile Include="ProductionLevel\ServerInfos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServerDetails.cs" />
     <Compile Include="StorageDetails.cs" />
     <Compile Include="TestCode.cs" />
+    <Compile Include="WMIConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -71,7 +77,13 @@
     <Content Include="Notes\NetworkDeviceInfo.txt" />
     <Content Include="Notes\NMNotes.txt" />
     <Content Include="Notes\OldCode.txt" />
+    <Content Include="Notes\WMIQueryNotes.txt" />
+    <Content Include="OutPut\SystemRunningProcessName.txt" />
+    <Content Include="OutPut\SystemProcessDetails.txt" />
+    <Content Include="OutPut\TMP.txt" />
+    <Content Include="OutPut\TMP2.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,0 +1,151 @@
+﻿ Server Status*************************************************
+ IP Address: 192.168.1.108
+ Server Ping Satus: Success
+
+
+
+
+ Processor info*************************************************
+ Processor Name: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+
+
+
+
+ Hard disk info
+*************************************************
+ Volume Name: OS-W10
+ Description: Local Fixed Disk
+ File system: NTFS
+ Available space to current user: 141.47GB
+ Total size of drive: 250.00GB
+
+
+ Volume Name: Big Data Zone
+ Description: Local Fixed Disk
+ File system: NTFS
+ Available space to current user: 270.52GB
+ Total size of drive: 500.00GB
+
+
+ Volume Name: Apps Zone
+ Description: Local Fixed Disk
+ File system: NTFS
+ Available space to current user: 60.29GB
+ Total size of drive: 181.51GB
+
+
+
+
+
+
+ Memory info*************************************************
+ Total Visible Memory Size: 15.89GB
+ Total Virtual Memory Size: 15.89GB
+ Free Physical Memory: 13.09GB
+ Free Virtual Memory: 15.27GB
+
+
+
+
+ System info*************************************************
+ Computer Name: DEVSTATION
+ Operating System Name: Microsoft Windows 10 Pro
+ Current Time Zone: 360
+ Manufacturer: Microsoft Corporation
+ OS Architecture: 64-bit
+ OS Language: 1033
+ Registered User: ASUS
+ Serial Number: 00331-10000-00001-AA946
+ System Device: \Device\HarddiskVolume1
+ System Directory: C:\Windows\system32
+ System Drive: C:
+ Version: 10.0.10240
+ Windows Directory: C:\Windows
+ Operating System Install Date: 20160323035808.000000+360
+ Operating System Last Boot Up Time: 20170921025005.622834+360
+ Operating System Local Date Time: 20171019175853.841000+360
+
+
+
+
+ Network info*************************************************
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: N/A
+Availability: 3
+Caption: [00000002] Realtek PCIe GBE Family Controller
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Realtek PCIe GBE Family Controller
+DeviceID: 2
+ErrorCleared: N/A
+ErrorDescription: N/A
+GUID: {91C92892-88FD-4A10-B67E-C41A0F1668E3}
+Index: 2
+InstallDate: N/A
+Installed: True
+InterfaceIndex: 15
+LastErrorCode: N/A
+MACAddress: D0:17:C2:03:1B:33
+Manufacturer: Realtek
+MaxNumberControlled: 0
+MaxSpeed: N/A
+Name: Realtek PCIe GBE Family Controller
+NetConnectionID: Ethernet
+NetConnectionStatus: 7
+NetEnabled: False
+NetworkAddresses: N/A
+PermanentAddress: N/A
+PhysicalAdapter: True
+PNPDeviceID: PCI\VEN_10EC&DEV_8168&SUBSYS_205F1043&REV_10\01000000684CE00000
+PowerManagementCapabilities: N/A
+PowerManagementSupported: False
+ProductName: Realtek PCIe GBE Family Controller
+ServiceName: rt640x64
+Speed: N/A
+Status: N/A
+StatusInfo: N/A
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
+AdapterType: Ethernet 802.3
+AdapterTypeId: 0
+AutoSense: N/A
+Availability: 3
+Caption: [00000006] Qualcomm Atheros QCA9377 Wireless Network Adapter
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_NetworkAdapter
+Description: Qualcomm Atheros QCA9377 Wireless Network Adapter
+DeviceID: 6
+ErrorCleared: N/A
+ErrorDescription: N/A
+GUID: {77BAC7F6-2B07-4200-BE00-C25401C13429}
+Index: 6
+InstallDate: N/A
+Installed: True
+InterfaceIndex: 11
+LastErrorCode: N/A
+MACAddress: 80:A5:89:D9:3E:EB
+Manufacturer: Qualcomm Atheros Communications Inc.
+MaxNumberControlled: 0
+MaxSpeed: N/A
+Name: Qualcomm Atheros QCA9377 Wireless Network Adapter
+NetConnectionID: Wi-Fi 2
+NetConnectionStatus: 2
+NetEnabled: True
+NetworkAddresses: N/A
+PermanentAddress: N/A
+PhysicalAdapter: True
+PNPDeviceID: PCI\VEN_168C&DEV_0042&SUBSYS_22311A3B&REV_30\4&362757AF&0&00E5
+PowerManagementCapabilities: N/A
+PowerManagementSupported: False
+ProductName: Qualcomm Atheros QCA9377 Wireless Network Adapter
+ServiceName: Qcamain10x64
+Speed: N/A
+Status: N/A
+StatusInfo: N/A
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: DEVSTATION
+TimeOfLastReset: 20170921025005.622834+360
